@@ -1,14 +1,15 @@
+import DisplayName from "../components/DisolayName/DisplayName";
+import Layout from "../components/Layout/Layout";
+import { Navbar } from "../components/Navbar/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.mainContainer}>
-      <div className={styles.firstName}>
-        <h1>Danielle</h1>
+    <Layout pageTitle="Home page">
+      <div className={styles.mainContainer}>
+        {/* <DisplayName /> */}
+        <Navbar />
       </div>
-      <div>
-        <h2 className={styles.lastName}>Desteucq - Roettger</h2>
-      </div>
-    </div>
+    </Layout>
   );
 }
