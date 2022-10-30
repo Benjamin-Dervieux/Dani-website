@@ -6,3 +6,7 @@ html {
   scroll-behavior: smooth;
   font-family: "Vidaloka", serif;
 }
+
+.custom-img {
+  background-image: url("../public/images/photo-home.jpg");
+}
