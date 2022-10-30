@@ -58,19 +58,34 @@ export const Navbar = () => {
           }
         >
           <ul>
-            <li className="p-4 text-4xl hover:text-dani-selected hover:underline">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-dani-selected hover:underline"
+            >
               <Link href="/">Accueil</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-dani-selected hover:underline">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-dani-selected hover:underline"
+            >
               <Link href="/about">Qui suis-je</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-dani-selected hover:underline">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-dani-selected hover:underline"
+            >
               <Link href="/informations">Informations</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-dani-selected hover:underline">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-dani-selected hover:underline"
+            >
               <Link href="/testimonials">Témoignages</Link>
             </li>
-            <li className="p-4 text-4xl hover:text-dani-selected hover:underline">
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl hover:text-dani-selected hover:underline"
+            >
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
