@@ -1,0 +1,15 @@
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  background-color: #2d4c49;
+}
+
+.typeName {
+  margin-top: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.displayName {
+  font-family: "Vidaloka", serif;
+}
