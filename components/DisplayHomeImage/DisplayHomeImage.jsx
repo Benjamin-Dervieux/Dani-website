@@ -2,8 +2,8 @@ import React from "react";
 
 const DisplayHomeImage = () => {
   return (
-    <div className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img">
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/30" />
+    <div className="flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img">
+      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/10" />
       <div className=" p-5 text-center text-white z-[2]">
         <h1 className="text-3xl font-bold">
           Cours de français des affaires en ligne
