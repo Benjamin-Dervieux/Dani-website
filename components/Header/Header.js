@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-export const Header = () => {
+const Header = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {
@@ -23,24 +23,27 @@ export const Header = () => {
             alt="Danielle logo"
           />
         </Link>
-
-        <ul className="hidden sm:flex">
-          <li className="p-4 hover:text-dani-selected hover:underline">
-            <Link href="/">Accueil</Link>
-          </li>
-          <li className="p-4 hover:text-dani-selected hover:underline">
-            <Link href="/about">Qui suis-je</Link>
-          </li>
-          <li className="p-4 hover:text-dani-selected hover:underline">
-            <Link href="/informations">Informations</Link>
-          </li>
-          <li className="p-4 hover:text-dani-selected hover:underline">
-            <Link href="/testimonials">Témoignages</Link>
-          </li>
-          <li className="p-4 hover:text-dani-selected hover:underline">
-            <Link href="/contact">Contact</Link>
-          </li>
-        </ul>
+        <nav>
+          <ul className="hidden sm:flex">
+            <li className="p-4 hover:text-dani-selected hover:underline">
+              <Link href="/">Accueil</Link>
+            </li>
+            <li className="p-4 hover:text-dani-selected hover:underline">
+              <Link href="/about">
+                <a>Qui suis-je</a>
+              </Link>
+            </li>
+            <li className="p-4 hover:text-dani-selected hover:underline">
+              <Link href="/informations">Informations</Link>
+            </li>
+            <li className="p-4 hover:text-dani-selected hover:underline">
+              <Link href="/testimonials">Témoignages</Link>
+            </li>
+            <li className="p-4 hover:text-dani-selected hover:underline">
+              <Link href="/contact">Contact</Link>
+            </li>
+          </ul>
+        </nav>
 
         {/* Mobile Button */}
 
@@ -94,3 +97,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
