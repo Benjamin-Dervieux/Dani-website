@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
-export const Navbar = () => {
+export const Header = () => {
   const [nav, setNav] = useState(false);
 
   const handleNav = () => {

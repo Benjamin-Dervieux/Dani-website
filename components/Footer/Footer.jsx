@@ -3,7 +3,7 @@ import { BsGeoFill, BsPhoneFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="fixed left-0 bottom-0 w-full z-10 ease-in bg-dani-green">
+    <div className="fixed left-0 bottom-0 w-full bg-dani-green">
       <div className="max-w-[1240px] m-auto flex justify-center flex-col items-center p-4 text-white">
         <div className="underline">
           <h2>Horaires</h2>
