@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import Layout from "../../components/Layout/Layout";
-import Button from "../../components/Button/Button";
+import Layout from "../components/Layout/Layout";
+import Button from "../components/Button/Button";
 
 const Information = () => {
   return (

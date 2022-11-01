@@ -1,19 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import Layout from "../../components/Layout/Layout";
+import Layout from "../components/Layout/Layout";
 import { FaGraduationCap } from "react-icons/fa";
 import { Gi3DStairs } from "react-icons/gi";
 
 export default function About() {
   return (
     <Layout pageTitle="about">
-      <div>
-        <div>
-          <h1>Qui suis-je ?</h1>
-        </div>
-
-        <div>
+      <div className="mt-36 flex flex-col content-center">
+        <div className=" w-2/5 h-72 border-r-b-l rounded shadow-lg text-justify">
           <div>
+            <h1 className="p-4 text-center">Qui suis-je ?</h1>
             <p>
               Mon expérience est le fruit de nombreuses années de travail avec
               des élèves de tous horizons. Mes études et ma carrière de

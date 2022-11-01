@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../../components/Layout/Layout";
+import Layout from "../components/Layout/Layout";
 import { BsGeoFill, BsPhoneFill } from "react-icons/bs";
 import { HiPencilSquare } from "react-icons/hi";
 import { AiOutlineLinkedin } from "react-icons/ai";
