@@ -1,9 +1,8 @@
-import React from "react";
 import Head from "next/head";
-import { Header } from "../Header/Header";
+import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
-export default function Layout({ children, pageTitle }) {
+const Layout = ({ children, pageTitle }) => {
   return (
     <div>
       <Head>
@@ -16,4 +15,6 @@ export default function Layout({ children, pageTitle }) {
       <Footer />
     </div>
   );
-}
+};
+
+export default Layout;

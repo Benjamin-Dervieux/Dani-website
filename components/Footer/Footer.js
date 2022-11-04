@@ -14,11 +14,11 @@ const Footer = () => {
           <h2>Coordonnées</h2>
         </div>
         <div className="flex justify-around items-center">
-          <BsGeoFill size={20} />
+          <BsGeoFill className="" size={20} />
           <p>Lyon</p>
         </div>
         <div className="flex justify-around items-center">
-          <BsPhoneFill size={20} />
+          <BsPhoneFill className="" size={20} />
           <p>00 33 30 30 30 30</p>
         </div>
       </div>
