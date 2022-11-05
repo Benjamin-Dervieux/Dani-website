@@ -7,7 +7,7 @@ import { FaXingSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 
-const Contact = () => {
+const contact = () => {
   return (
     <Layout pageTitle="Contact">
       <div>
@@ -95,4 +95,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default contact;

@@ -29,9 +29,7 @@ const Header = () => {
               <Link href="/">Accueil</Link>
             </li>
             <li className="p-4 hover:text-dani-selected hover:underline">
-              <Link href="/about">
-                <a>Qui suis-je</a>
-              </Link>
+              <Link href="/about">Qui suis-je</Link>
             </li>
             <li className="p-4 hover:text-dani-selected hover:underline">
               <Link href="/informations">Informations</Link>
