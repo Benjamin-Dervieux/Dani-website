@@ -22,7 +22,7 @@ const testimonials = () => {
           Témoignages sur Danielle Desteucq-Roettger
         </h1>
 
-        <div className="w-80 h-64 border-2 border-dani-green rounded-xl">
+        <div className="mt-8 w-80 h-64 border-2 border-dani-green rounded-xl">
           <div className="w-[316px] h-16 bg-dani-green flex rounded-t-lg flex-col items-center">
             <div className="text-white">
               <SlBubbles size={35} />

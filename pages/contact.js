@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
-import { BsGeoFill, BsPhoneFill } from "react-icons/bs";
-import { HiPencilSquare } from "react-icons/hi";
+import { BsGeoFill, BsPhoneFill, BsPersonCircle } from "react-icons/bs";
+import { BsPencilSquare } from "react-icons/bs";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaXingSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -10,85 +10,161 @@ import Link from "next/link";
 const contact = () => {
   return (
     <Layout pageTitle="Contact">
-      <div>
-        <h1>Prendre rendez-vous avec Danielle Desteucq-Roettger</h1>
+      <div className="mt-32">
+        <h1 className="text-[1.7em] text-center">
+          Prendre rendez-vous avec Danielle Desteucq-Roettger
+        </h1>
       </div>
 
-      {/*form*/}
-
-      <div>
-        <form>
-          <input type="text" name="lastname" placeholder="Votre nom" required />
+      <div className="">
+        <form className="flex flex-col">
+          <label className="ml-4 mt-4 text-lg" htmlFor="lastname">
+            Nom
+          </label>
           <input
+            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            type="text"
+            name="lastname"
+            required
+          />
+          <label className="ml-4 mt-4 text-lg" htmlFor="firstname">
+            Prénom
+          </label>
+          <input
+            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
             type="text"
             name="firstname"
-            placeholder="Votre prénom"
             required
           />
-          <input type="text" name="email" placeholder="Votre e-mail" required />
+          <label className="ml-4 mt-4 text-lg" htmlFor="email">
+            Email
+          </label>
           <input
+            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            type="text"
+            name="email"
+            required
+          />
+          <label className="ml-4 mt-4 text-lg" htmlFor="telephone">
+            Téléphone
+          </label>
+          <input
+            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
             type="number"
             name="telephone"
-            placeholder="Votre numéro de téléphone"
             required
           />
-          <input type="text" name="subject" placeholder="Sujet" required />
-          <textarea name="message" required></textarea>
-          <button type="submit">Envoyer</button>
+          <label className="ml-4 mt-4 text-lg" htmlFor="subject">
+            Sujet
+          </label>
+          <input
+            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            type="text"
+            name="subject"
+            required
+          />
+          <label className="ml-4 mt-4 text-lg" htmlFor="message">
+            Message
+          </label>
+          <textarea
+            className="w-[355px] h-36 ml-4 border-2 rounded-md bg-slate-100 "
+            name="message"
+            required
+          ></textarea>
+
+          <div className=" mt-6 flex justify-center">
+            <button
+              className="w-28 h-10 bg-dani-selected rounded-md text-white"
+              type="submit"
+            >
+              Envoyer
+            </button>
+          </div>
         </form>
       </div>
 
-      {/*card - contact*/}
-
-      <div>
-        <div>
-          <HiPencilSquare size={20} />
-          <h2>Contact</h2>
-        </div>
-        <div className="flex justify-around items-center">
-          <BsGeoFill size={20} />
-          <p>Lyon</p>
-        </div>
-        <div className="flex justify-around items-center">
-          <BsPhoneFill size={20} />
-          <p>00 33 30 30 30 30</p>
-        </div>
-      </div>
-
-      {/*card - email*/}
-
-      <div>
-        <div>
-          <MdEmail size={20} />
-          <h3>Email</h3>
-          <p>contact@danielle-roettger.fr</p>
-          <Link href="/contact">Envoyez-moi un email</Link>
-        </div>
-      </div>
-
-      {/*card - linkedin*/}
-
-      <div>
-        <div>
-          <AiOutlineLinkedin size={20} />
-          <h3>Linkedin</h3>
-          <p>Danielle Desteucq-Roettger</p>
-          <Link href="https://www.linkedin.com/in/danielle-desteucq-r%C3%B6ttger-219b6328/">
-            Mon profil linkedin
-          </Link>
+      <div className="flex justify-center">
+        <div className="mt-8 w-80 h-72 border-2 border-dani-green rounded-xl">
+          <div className="w-[316px] h-20 bg-dani-green flex rounded-t-lg flex-col items-center">
+            <div className="text-white text-lg">
+              <BsPencilSquare size={35} />
+              <h2>Contact</h2>
+            </div>
+          </div>
+          <div className="w-80 h-52 flex flex-col justify-around">
+            <div className="ml-6 flex items-center text-lg">
+              <div className="text-dani-selected">
+                <BsPersonCircle size={35} />
+              </div>
+              <p className="ml-3">Danielle Desteucq - Roettger</p>
+            </div>
+            <div className="ml-6 flex items-center text-lg">
+              <div className="text-dani-selected">
+                <BsGeoFill size={35} />
+              </div>
+              <p className="ml-3">Lyon</p>
+            </div>
+            <div className="ml-6 flex items-center text-lg">
+              <div className="text-dani-selected">
+                <BsPhoneFill size={35} />
+              </div>
+              <p className="ml-3">00 33 30 30 30 30</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      {/*card - xing*/}
+      <div className="mt-8 mb-8 h-[500px] flex flex-col justify-between items-center">
+        <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around">
+          <div>
+            <div className="flex justify-center items-center text-white">
+              <MdEmail size={35} />
+              <h3 className="ml-4 text-lg">Email</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <p className="text-lg text-white">contact@danielle-roettger.fr</p>
+              <div className="text-lg text-white underline">
+                <Link href="/contact">Envoyez-moi un email</Link>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div>
-        <div>
-          <FaXingSquare size={20} />
-          <h3>Xing</h3>
-          <p>Danielle Desteucq-Roettger</p>
-          <Link href="https://www.xing.com/profile/Danielle_DesteucqRoettger">
-            Mon profil xing
-          </Link>
+        <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around">
+          <div>
+            <div className="flex justify-center items-center text-white">
+              <AiOutlineLinkedin size={35} />
+              <h3 className="ml-4 text-lg">Linkedin</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <p className="text-lg text-white">Danielle Desteucq-Roettger</p>
+              <div className="text-lg text-white underline">
+                <Link href="https://www.linkedin.com/in/danielle-desteucq-r%C3%B6ttger-219b6328/">
+                  Mon profil linkedin
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around">
+          <div>
+            <div className="flex justify-center items-center text-white">
+              <FaXingSquare size={35} />
+              <h3 className="ml-4 text-lg">Xing</h3>
+            </div>
+            <div className="flex flex-col items-center">
+              <p className="text-lg text-white">Danielle Desteucq-Roettger</p>
+              <div className="text-lg text-white underline">
+                <Link
+                  className="text-lg text-white"
+                  href="https://www.xing.com/profile/Danielle_DesteucqRoettger"
+                >
+                  Mon profil xing
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </Layout>
