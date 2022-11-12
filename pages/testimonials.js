@@ -13,12 +13,12 @@ const testimonials = () => {
           width={500}
           height={260}
           src="/images/photo-cours3.jpg"
-          alt="photo reveil et crayon"
+          alt="photo pile de livre d'apprentissage"
         />
       </div>
 
       <div className="mt-8 flex flex-col items-center">
-        <h1 className="text-lg font-semibold ">
+        <h1 className="text-[1.7em] text-center italic tracking-wide ">
           Témoignages sur Danielle Desteucq-Roettger
         </h1>
 
@@ -36,7 +36,9 @@ const testimonials = () => {
               Vous souhaitez recommander mon approche de l’apprentissage ?
             </h2>
             <div className="bg-dani-selected rounded-md w-36">
-              <button type="button">Partager mon témoignage</button>
+              <button className="text-white" type="button">
+                Partager mon témoignage
+              </button>
             </div>
           </div>
         </div>

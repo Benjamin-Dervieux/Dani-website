@@ -15,14 +15,16 @@ export default function About() {
           width={500}
           height={260}
           src="/images/photo-cours2.jpg"
-          alt="photo reveil et crayon"
+          alt="photo bureau avec cahier, cartable, encrier"
         />
       </div>
 
       <div className="mt-8 flex flex-col items-center">
         <div className="w-80 border-r-b-l rounded shadow-xl text-justify p-4">
           <div>
-            <h1 className="p-4 text-center text-xl font-bold">Qui suis-je ?</h1>
+            <h1 className="p-4 text-center text-[1.7em] italic tracking-wide">
+              Qui suis-je ?
+            </h1>
             <p>
               Mon expérience est le fruit de nombreuses années de travail avec
               des élèves de tous horizons. Mes études et ma carrière de
@@ -53,7 +55,7 @@ export default function About() {
         </div>
 
         <div className="mt-16">
-          <h2 className="text-xl font-bold">Formation</h2>
+          <h2 className="text-[1.7em] italic tracking-wide">Formation</h2>
         </div>
 
         <div className="flex flex-col items-center">
@@ -88,7 +90,7 @@ export default function About() {
         </div>
 
         <div className="mt-16">
-          <h2 className="text-xl font-bold">Parcours</h2>
+          <h2 className="text-[1.7em] italic tracking-wide">Parcours</h2>
         </div>
 
         <div className="flex flex-col items-center">

@@ -1,4 +1,3 @@
-import React from "react";
 import Layout from "../components/Layout/Layout";
 import { BsGeoFill, BsPhoneFill, BsPersonCircle } from "react-icons/bs";
 import { BsPencilSquare } from "react-icons/bs";
@@ -6,12 +5,24 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaXingSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
+import Image from "next/image";
 
 const contact = () => {
   return (
     <Layout pageTitle="Contact">
-      <div className="mt-32">
-        <h1 className="text-[1.7em] text-center">
+      <div className="mt-28">
+        <Image
+          priority
+          quality={100}
+          width={500}
+          height={260}
+          src="/images/photo-rdv.jpg"
+          alt="photo contact"
+        />
+      </div>
+
+      <div className="mt-8">
+        <h1 className="text-[1.7em] text-center italic tracking-wide">
           Prendre rendez-vous avec Danielle Desteucq-Roettger
         </h1>
       </div>
@@ -22,7 +33,7 @@ const contact = () => {
             Nom
           </label>
           <input
-            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            className="w-[355px] h-8 ml-4 border-2 rounded-md bg-slate-100 "
             type="text"
             name="lastname"
             required
@@ -31,7 +42,7 @@ const contact = () => {
             Prénom
           </label>
           <input
-            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            className="w-[355px] h-8 ml-4 border-2 rounded-md bg-slate-100 "
             type="text"
             name="firstname"
             required
@@ -40,7 +51,7 @@ const contact = () => {
             Email
           </label>
           <input
-            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            className="w-[355px] h-8 ml-4 border-2 rounded-md bg-slate-100 "
             type="text"
             name="email"
             required
@@ -49,7 +60,7 @@ const contact = () => {
             Téléphone
           </label>
           <input
-            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            className="w-[355px] h-8 ml-4 border-2 rounded-md bg-slate-100 "
             type="number"
             name="telephone"
             required
@@ -58,7 +69,7 @@ const contact = () => {
             Sujet
           </label>
           <input
-            className="w-[355px] ml-4 border-2 rounded-md bg-slate-100 "
+            className="w-[355px] h-8 ml-4 border-2 rounded-md bg-slate-100 "
             type="text"
             name="subject"
             required
@@ -74,7 +85,7 @@ const contact = () => {
 
           <div className=" mt-6 flex justify-center">
             <button
-              className="w-28 h-10 bg-dani-selected rounded-md text-white"
+              className="w-36 h-10 bg-dani-selected rounded-md text-white"
               type="submit"
             >
               Envoyer
@@ -108,7 +119,7 @@ const contact = () => {
               <div className="text-dani-selected">
                 <BsPhoneFill size={35} />
               </div>
-              <p className="ml-3">00 33 30 30 30 30</p>
+              <p className="ml-3">+33 6 74 81 19 75 </p>
             </div>
           </div>
         </div>

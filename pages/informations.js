@@ -18,7 +18,7 @@ const Information = () => {
       </div>
 
       <div className="mt-8 flex flex-col items-center">
-        <h1 className="p-4 text-center text-xl font-bold underline">
+        <h1 className="p-4 text-center text-[1.7em] italic tracking-wide underline">
           Efficacité et flexibilité
         </h1>
 
@@ -44,7 +44,7 @@ const Information = () => {
           </p>
         </div>
 
-        <h2 className="p-4 text-center text-xl font-bold underline">
+        <h2 className="p-4 text-center text-[1.7em] italic tracking-wide underline">
           Ma clientèle
         </h2>
 
@@ -72,7 +72,7 @@ const Information = () => {
           </p>
         </div>
 
-        <h2 className="p-4 text-center text-xl font-bold underline">
+        <h2 className="p-4 text-center text-[1.7em] italic tracking-wide underline">
           Mes élèves
         </h2>
 

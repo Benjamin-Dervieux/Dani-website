@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-around items-center">
             <BsPhoneFill className="" size={20} />
-            <p>00 33 30 30 30 30</p>
+            <p>+33 6 74 81 19 75 </p>
           </div>
         </div>
       </div>
