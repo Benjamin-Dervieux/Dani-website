@@ -7,6 +7,22 @@ html {
   font-family: "Vidaloka", serif;
 }
 
-.custom-img {
+.custom-img-home {
   background-image: url("../public/images/photo-home.jpg");
+}
+
+.img-header-about {
+  background-image: url("../public/images/photo-cours2.jpg");
+}
+.img-header-info {
+  background-image: url("../public/images/photo-cours1.jpg");
+}
+.img-header-testimonials {
+  background-image: url("../public/images/photo-cours3.jpg");
+}
+.img-header-contact {
+  background-image: url("../public/images/photo-rdv.jpg");
+}
+.img-profil {
+  background-image: url("../public/images/danielle-roettger.png");
 }

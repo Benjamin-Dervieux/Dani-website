@@ -5,20 +5,12 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaXingSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
-import Image from "next/image";
 
 const contact = () => {
   return (
     <Layout pageTitle="Contact">
       <div className="mt-28">
-        <Image
-          priority
-          quality={100}
-          width={500}
-          height={260}
-          src="/images/photo-rdv.jpg"
-          alt="photo contact"
-        />
+        <div className="flex justify-center h-[200px] md:h-[300px] lg:h-[300px] bg-center bg-cover img-header-contact"></div>
       </div>
 
       <div className="mt-8">

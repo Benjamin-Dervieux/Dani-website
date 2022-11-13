@@ -7,14 +7,7 @@ const Information = () => {
   return (
     <Layout pageTitle="Information">
       <div className="mt-28">
-        <Image
-          priority
-          quality={100}
-          width={500}
-          height={260}
-          src="/images/photo-cours1.jpg"
-          alt="photo reveil et crayon"
-        />
+        <div className="flex justify-center h-[200px] md:h-[300px] lg:h-[300px] bg-center bg-cover img-header-info"></div>
       </div>
 
       <div className="mt-8 flex flex-col items-center">

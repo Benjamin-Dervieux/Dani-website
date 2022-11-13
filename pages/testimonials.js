@@ -1,20 +1,12 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
-import Image from "next/image";
 import { SlBubbles } from "react-icons/sl";
 
 const testimonials = () => {
   return (
     <Layout pageTitle="Testimonials">
       <div className="mt-28">
-        <Image
-          priority
-          quality={100}
-          width={500}
-          height={260}
-          src="/images/photo-cours3.jpg"
-          alt="photo pile de livre d'apprentissage"
-        />
+        <div className="flex justify-center h-[200px] md:h-[300px] lg:h-[300px] bg-center bg-cover img-header-testimonials"></div>
       </div>
 
       <div className="mt-8 flex flex-col items-center">

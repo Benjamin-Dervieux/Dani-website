@@ -15,6 +15,7 @@ const Header = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <Image
+            className="cursor-pointer"
             priority
             quality={100}
             width={70}
@@ -25,19 +26,19 @@ const Header = () => {
         </Link>
         <nav>
           <ul className="hidden sm:flex">
-            <li className="p-4 hover:text-dani-selected hover:underline">
+            <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
               <Link href="/">Accueil</Link>
             </li>
-            <li className="p-4 hover:text-dani-selected hover:underline">
+            <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
               <Link href="/about">Qui suis-je</Link>
             </li>
-            <li className="p-4 hover:text-dani-selected hover:underline">
+            <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
               <Link href="/informations">Informations</Link>
             </li>
-            <li className="p-4 hover:text-dani-selected hover:underline">
+            <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
               <Link href="/testimonials">Témoignages</Link>
             </li>
-            <li className="p-4 hover:text-dani-selected hover:underline">
+            <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
               <Link href="/contact">Contact</Link>
             </li>
           </ul>
