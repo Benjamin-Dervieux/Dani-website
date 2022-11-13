@@ -15,7 +15,7 @@ const Information = () => {
           Efficacité et flexibilité
         </h1>
 
-        <div>
+        <div className="mt-5">
           <Image
             className="rounded-lg"
             priority
@@ -37,11 +37,11 @@ const Information = () => {
           </p>
         </div>
 
-        <h2 className="p-4 text-center text-[1.7em] italic tracking-wide underline">
+        <h2 className="mt-10 p-4 text-center text-[1.7em] italic tracking-wide underline">
           Ma clientèle
         </h2>
 
-        <div>
+        <div className="mt-5">
           <Image
             className="rounded-lg"
             priority
@@ -65,11 +65,11 @@ const Information = () => {
           </p>
         </div>
 
-        <h2 className="p-4 text-center text-[1.7em] italic tracking-wide underline">
+        <h2 className="mt-10 p-4 text-center text-[1.7em] italic tracking-wide underline">
           Mes élèves
         </h2>
 
-        <div>
+        <div className="mt-5">
           <Image
             className="rounded-lg"
             priority
