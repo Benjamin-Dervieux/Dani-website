@@ -19,7 +19,7 @@ const contact = () => {
         </h1>
       </div>
 
-      <div className="lg:flex flex-row-reverse justify-end lg:ml-40 lg:mt-8">
+      <div className="lg:flex flex-row-reverse justify-center lg:ml-40 lg:mt-8 lg:mb-20">
         <form className="flex flex-col lg:mt-16">
           <label
             className="ml-4 mb-4 lg:ml-32 text-lg lg:text-[1.2em]"
