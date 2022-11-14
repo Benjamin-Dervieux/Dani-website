@@ -7,6 +7,8 @@ html {
   font-family: "Vidaloka", serif;
 }
 
+/*===================== HEADER IMAGES FOR DIFFERENTS PAGES ======================= */
+
 .custom-img-home {
   background-image: url("../public/images/img-home.jpg");
 }
@@ -25,4 +27,16 @@ html {
 }
 .img-profil {
   background-image: url("../public/images/danielle-roettger.png");
+}
+
+/*====================== IMAGES OF INFORMATIONS PAGE =========================*/
+
+.img-info-1 {
+  background-image: url("../public/images/photo-info1.jpeg");
+}
+.img-info-2 {
+  background-image: url("../public/images/photo-client.jpg");
+}
+.img-info-3 {
+  background-image: url("../public/images/photo-eleves.jpg");
 }

@@ -17,15 +17,7 @@ const Information = () => {
 
         <div className="mt-8 flex flex-col items-center lg:flex-row justify-around">
           <div className="mt-5">
-            <Image
-              className="rounded-lg"
-              priority
-              quality={100}
-              width={300}
-              height={200}
-              src="/images/photo-info1.jpeg"
-              alt="Photo randonneur"
-            />
+            <div className="w-[300px] lg:w-[500px] h-[200px] lg:h-[300px] bg-center bg-cover img-info-1 rounded-lg"></div>
           </div>
 
           <div className="mt-8 w-80 lg:w-[600px] text-justify">
@@ -43,17 +35,9 @@ const Information = () => {
           Ma clientèle
         </h2>
 
-        <div className="mt-8 flex flex-col items-center lg:flex-row-reverse justify-around">
+        <div className="mt-3 flex flex-col items-center lg:flex-row-reverse justify-around">
           <div className="mt-5">
-            <Image
-              className="rounded-lg"
-              priority
-              quality={100}
-              width={300}
-              height={200}
-              src="/images/photo-client.jpg"
-              alt="Photo pouces en l'air"
-            />
+            <div className="w-[300px] lg:w-[500px] h-[200px] lg:h-[300px] bg-left bg-cover img-info-2 rounded-lg"></div>
           </div>
 
           <div className="mt-8 w-80 lg:w-[600px] text-justify">
@@ -74,17 +58,9 @@ const Information = () => {
           Mes élèves
         </h2>
 
-        <div className="mt-8 flex flex-col items-center lg:flex-row justify-around">
+        <div className="mt-3 flex flex-col items-center lg:flex-row justify-around">
           <div className="mt-5">
-            <Image
-              className="rounded-lg"
-              priority
-              quality={100}
-              width={300}
-              height={200}
-              src="/images/photo-eleves.jpg"
-              alt="Photo cerveau qui brille dans une main"
-            />
+            <div className="w-[300px] lg:w-[500px] h-[200px] lg:h-[300px] bg-center bg-cover img-info-3 rounded-lg"></div>
           </div>
 
           <div className="mt-8 mb-16 w-80 lg:w-[600px] text-justify">
@@ -104,7 +80,7 @@ const Information = () => {
           </div>
         </div>
 
-        <div className="mb-16">
+        <div className="mb-16 lg:mt-32">
           <Button />
         </div>
       </div>
