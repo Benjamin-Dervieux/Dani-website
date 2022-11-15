@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import Layout from "../components/Layout/Layout";
 import { SlBubbles } from "react-icons/sl";
+import Link from "next/link";
+import { TestimonialContext } from "../context/testimonialContext";
+import TestimonialCard from "../components/TestimonialCard/TestimonialCard";
 
-const testimonials = () => {
+const Testimonials = () => {
+  const { testiList } = useContext(TestimonialContext);
+
   return (
     <Layout pageTitle="Testimonials">
       <div className="mt-28">
@@ -28,17 +33,25 @@ const testimonials = () => {
               Vous souhaitez recommander mon approche de l’apprentissage ?
             </h2>
             <div className="bg-dani-selected rounded-md w-36">
-              <button className="text-white" type="button">
-                Partager mon témoignage
-              </button>
+              <Link href="/newTestimonial">
+                <button className="text-white" type="button">
+                  Partager mon témoignage
+                </button>
+              </Link>
             </div>
           </div>
         </div>
       </div>
 
-      <div>{}</div>
+      {testiList.map((testimonials) => (
+        <TestimonialCard
+          card={testimonials}
+          key={testimonials.id}
+          id={testimonials.id}
+        />
+      ))}
     </Layout>
   );
 };
 
-export default testimonials;
+export default Testimonials;

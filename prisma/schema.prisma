@@ -7,7 +7,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Testimonials {
+model testimonials {
   id        Int       @id @default(autoincrement())
   title     String?   @db.VarChar(255)
   content   String    @db.Text

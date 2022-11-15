@@ -38,5 +38,11 @@ html {
   background-image: url("../public/images/photo-client.jpg");
 }
 .img-info-3 {
-  background-image: url("../public/images/photo-eleves.jpg");
+  background-image: url("../public/images/students.jpg");
+}
+
+/*======================= IMAGE OF ADD TESTIMONIAL PAGE ======================*/
+
+.img-addTestimonial {
+  background-image: url("../public/images/commentaire.jpg");
 }
