@@ -15,7 +15,7 @@ export default function About() {
 
       <div className="lg:flex flex-row-reverse justify-around items-center">
         <div className="mt-8 flex flex-col items-center lg:self-end">
-          <div className="w-80 lg:w-[600px] lg:h-80 border-r-b-l rounded shadow-xl text-justify p-4">
+          <div className="w-80 lg:w-[600px] lg:h-80 border-r-b-l rounded shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-justify p-4">
             <h1 className="p-4 text-center text-[1.7em] italic tracking-wide">
               Qui suis-je ?
             </h1>

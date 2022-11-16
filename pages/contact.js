@@ -95,7 +95,7 @@ const contact = () => {
 
           <div className=" mt-6 flex justify-center">
             <button
-              className="w-56 h-10 bg-dani-selected rounded-md text-white"
+              className="w-56 h-10 bg-dani-selected rounded-md text-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
               type="submit"
             >
               Envoyer

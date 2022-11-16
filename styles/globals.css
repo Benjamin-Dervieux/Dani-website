@@ -7,6 +7,12 @@ html {
   font-family: "Vidaloka", serif;
 }
 
+/*===================== DANIELLE LOGO ========================*/
+
+.logo-danielle {
+  background-image: url("../public/images/logo-dani.png");
+}
+
 /*===================== HEADER IMAGES FOR DIFFERENTS PAGES ======================= */
 
 .custom-img-home {
