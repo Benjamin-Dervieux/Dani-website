@@ -1,9 +1,12 @@
+import { TestimonialProvider } from "../context/testimonialContext";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Component {...pageProps} />
+      <TestimonialProvider>
+        <Component {...pageProps} />
+      </TestimonialProvider>
     </>
   );
 }
