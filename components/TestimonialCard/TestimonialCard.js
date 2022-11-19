@@ -1,5 +1,7 @@
 import React from "react";
 
+import axios from "axios";
+
 const TestimonialCard = ({ card }) => {
   return (
     <>
@@ -9,9 +11,12 @@ const TestimonialCard = ({ card }) => {
         </h2>
       </div>
 
-      <div className="flex flex-col items-center mb-8 lg:items-start lg:ml-24">
-        <div className="w-80 lg:w-[700px] border-r-b-l rounded text-justify p-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
-          <p>{card.content}</p>
+      <div className="lg:flex">
+        <div className="flex flex-col items-center mb-8 lg:items-start lg:ml-24">
+          <div className="w-80 lg:w-[700px] border-r-b-l rounded p-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+            <p className="text-justify text-[1.1em]">{card.content}</p>
+            <p className="mt-8">{card.author}</p>
+          </div>
         </div>
       </div>
     </>

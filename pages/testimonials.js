@@ -4,6 +4,7 @@ import { SlBubbles } from "react-icons/sl";
 import Link from "next/link";
 import { TestimonialContext } from "../context/testimonialContext";
 import TestimonialCard from "../components/TestimonialCard/TestimonialCard";
+import TestimonialList from "../components/TestimonialList/TestimonialList";
 
 const Testimonials = () => {
   const { testiList } = useContext(TestimonialContext);
@@ -49,13 +50,7 @@ const Testimonials = () => {
         </div>
       </div>
 
-      {testiList.map((testimonials) => (
-        <TestimonialCard
-          card={testimonials}
-          key={testimonials.id}
-          id={testimonials.id}
-        />
-      ))}
+      <TestimonialList />
     </Layout>
   );
 };

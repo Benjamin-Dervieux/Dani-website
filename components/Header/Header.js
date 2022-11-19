@@ -17,8 +17,7 @@ const Header = () => {
           <Image
             className="cursor-pointer"
             priority
-            quality={100}
-            width={50}
+            width={70}
             height={80}
             src="/images/logo-dani.png"
             alt="Danielle Desteucq-Roettgerlogo"

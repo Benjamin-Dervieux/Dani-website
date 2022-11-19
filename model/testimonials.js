@@ -1,4 +1,4 @@
-const db = require("../db");
+const db = require("../lib/prisma");
 
 module.exports.createNewTestimonial = async ({ title, content, author }) => {
   return await db.testimonials.create({
@@ -32,10 +32,10 @@ module.exports.findAllTestimoials = () =>
     },
   });
 
-module.exports.deleteTestimonials = (id) => {
+module.exports.deleteOneTestimonial = (id) => {
   return db.testimonials.delete({
     where: {
-      id,
+      id: parseInt(id),
     },
   });
 };
