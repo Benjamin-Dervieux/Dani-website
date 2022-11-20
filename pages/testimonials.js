@@ -3,7 +3,6 @@ import Layout from "../components/Layout/Layout";
 import { SlBubbles } from "react-icons/sl";
 import Link from "next/link";
 import { TestimonialContext } from "../context/testimonialContext";
-import TestimonialCard from "../components/TestimonialCard/TestimonialCard";
 import TestimonialList from "../components/TestimonialList/TestimonialList";
 
 const Testimonials = () => {
@@ -20,7 +19,7 @@ const Testimonials = () => {
           Témoignages sur Danielle Desteucq-Roettger
         </h1>
 
-        <div className="lg:w-screen lg:flex flex-row-reverse justify-around ml-4">
+        <div className="lg:w-[1200px] lg:flex flex-row-reverse justify-around ml-4">
           <div className="mt-8 w-80 h-64 border-2 border-dani-green rounded-xl">
             <div className="w-[316px] h-16 bg-dani-green flex rounded-t-lg flex-col items-center">
               <div className="text-white">

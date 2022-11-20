@@ -8,10 +8,12 @@ import RatingStar from "../components/RatingStar/RatingStar";
 const NewTestimonial = () => {
   const router = useRouter();
 
+  const [rating, setRating] = useState("");
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [author, setAuthor] = useState("");
 
+  const [userRating, setUserRating] = useState("");
   const [userTitle, setUserTitle] = useState("");
   const [userContent, setUserContent] = useState("");
   const [userAuthor, setUserAuthor] = useState("");
@@ -21,9 +23,11 @@ const NewTestimonial = () => {
     setTitle(!title);
     setContent(!content);
     setAuthor(!author);
+    setRating(!rating);
 
     axios
       .post("api/testimonials", {
+        rating: userRating,
         title: userTitle,
         content: userContent,
         author: userAuthor,
@@ -32,6 +36,7 @@ const NewTestimonial = () => {
         console.log(response);
       })
       .then(() => {
+        setRating("");
         setUserTitle("");
         setUserContent("");
         setUserAuthor("");
@@ -53,7 +58,10 @@ const NewTestimonial = () => {
         <h3 className="text-center text-lg tracking-wide mb-3">
           Évaluez Danielle
         </h3>
-        <RatingStar />
+        <RatingStar
+          value={userRating}
+          onChange={(e) => setUserRating(e.target.value)}
+        />
       </div>
 
       <div className="lg:flex flex-row justify-center">
