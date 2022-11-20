@@ -1,11 +1,12 @@
 import React from "react";
-
-import axios from "axios";
-
+import { Rate } from "antd";
 const TestimonialCard = ({ card }) => {
   return (
     <>
       <div className="mt-8">
+        <div className="flex justify-center lg:justify-start lg:ml-24">
+          <Rate value={card.rating} style={{ color: "#f8ddaf" }} />
+        </div>
         <h2 className="text-[1.7em] text-center italic tracking-wide lg:text-left lg:ml-24 mb-6">
           {card.title}
         </h2>
