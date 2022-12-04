@@ -10,7 +10,7 @@ export default function Home() {
             Cours de français des affaires en ligne
           </h1>
           <p className="py-5 text-lg">
-            Danielle Desteucq-Roettger Translator - Interpreter
+            Danielle Desteucq-Roettger Traductrice - Interprètre
           </p>
         </div>
 
