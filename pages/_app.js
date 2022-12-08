@@ -1,7 +1,14 @@
-import '../styles/globals.css'
+import { TestimonialProvider } from "../context/testimonialContext";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <TestimonialProvider>
+        <Component {...pageProps} />
+      </TestimonialProvider>
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

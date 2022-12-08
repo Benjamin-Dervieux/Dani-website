@@ -1,0 +1,41 @@
+.about {
+  width: 65%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: #e3c796;
+  display: grid;
+  place-items: center;
+}
+.aboutGreen {
+  background: #2d4c49;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: all 400ms ease;
+  display: grid;
+  place-items: center;
+}
+.aboutImg {
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: all 400ms ease;
+}
+
+.aboutGreen:hover {
+  transform: rotate(0);
+}
+
+/*====================== MEDIA QUERIES (LARGE DEVICES) =========================*/
+
+@media screen and (min-width: 1024px) {
+  .about {
+    width: 400px;
+  }
+  .aboutGreen {
+    width: 370px;
+    height: 380px;
+  }
+  .aboutImg {
+    width: 67%;
+  }
+}
