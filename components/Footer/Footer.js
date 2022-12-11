@@ -9,7 +9,7 @@ import de from "../../public/locales/de/de";
 const Footer = () => {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === "fr" ? fr : en;
+  const t = locale === "en" ? en : locale === "de" ? de : fr;
 
   return (
     <div className="bottom-0 w-full">

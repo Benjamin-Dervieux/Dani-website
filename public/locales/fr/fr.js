@@ -49,4 +49,27 @@ export default {
   myStudents: "Mes élèves",
   myStudentsP:
     "Mes « élèves » sont des personnes de nationalités très diverses et ayant appris le français. Leur niveau est au minimum A2. La langue support des cours peut être l’allemand ou l’anglais. Chaque cours sait s’adapter aux besoins de l’élève (domaine d’activité par exemple). Nous travaillons avec des supports rédigés dans un français moderne, actuel, efficace. Il est également possible de travailler avec les supports suggérés par les élèves. Bien sûr, je garantis une confidentialité absolue. Selon les besoins et les attentes de l’élève, la formation propose un mix de conversation, compréhension et expression orales, lecture de textes actuels ou encore traduction.",
+
+  /*Contact*/
+  titleContact: "Prendre rendez-vous avec Danielle Desteucq-Roettger",
+  lastname: "Nom",
+  firstname: "Prénom",
+  email: "E-mail",
+  telC: "Téléphone",
+  subject: "Sujet",
+  message: "Message",
+  send: "Envoyer",
+  contact: "Contact",
+  nameC: "Danielle Desteucq - Roettger",
+  lyonC: "Lyon",
+  telCon: "+33 6 74 81 19 75",
+  mail: "E-mail",
+  emailAdresse: "contact@danielle-roettger.fr",
+  mailP: "Envoyez-moi un email",
+  linkedin: "Linkedin",
+  linkedinP: "Danielle Desteucq-Roettger",
+  linkedinL: "Mon profil Linkedin",
+  xing: "Xing",
+  xingP: "Danielle Desteucq-Roettger",
+  xingL: "Mon profil Xing",
 };
