@@ -12,7 +12,7 @@ const Header = () => {
   const [nav, setNav] = useState(false);
   const router = useRouter();
   const { locale } = router;
-  const t = locale === "fr" ? fr : en;
+  const t = locale === "en" ? en : locale === "de" ? de : fr;
 
   const handleChangeLanguage = (e) => {
     const locale = e.target.value;
