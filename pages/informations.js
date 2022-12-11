@@ -2,8 +2,17 @@ import Image from "next/image";
 import React from "react";
 import Layout from "../components/Layout/Layout";
 import Button from "../components/Button/Button";
+import { useRouter } from "next/router";
+
+import en from "../public/locales/en/en";
+import fr from "../public/locales/fr/fr";
+import de from "../public/locales/de/de";
 
 const Information = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "fr" ? fr : en;
+
   return (
     <Layout pageTitle="Information">
       <div className="mt-28">
@@ -12,7 +21,7 @@ const Information = () => {
 
       <div>
         <h1 className="p-4 text-center text-[1.7em] italic tracking-wide underline">
-          Efficacité et flexibilité
+          {t.efficiencyAndFlexibility}
         </h1>
 
         <div className="mt-8 flex flex-col items-center lg:flex-row justify-around">
@@ -21,18 +30,12 @@ const Information = () => {
           </div>
 
           <div className="mt-8 w-80 lg:w-[600px] text-justify">
-            <p className="text-[1.2em]">
-              La formation se fait en ligne, ce qui permet une flexibilité
-              maximum. Où que vous soyez, un ordinateur et une connexion
-              internet suffisent à assister au cours. Quant aux horaires des
-              cours, vous pourrez les gérer d’une semaine sur une autre, selon
-              vos disponibilités.
-            </p>
+            <p className="text-[1.2em]">{t.efficiencyAndFlexibilityP}</p>
           </div>
         </div>
 
         <h2 className="mt-10 p-4 text-center text-[1.7em] italic tracking-wide underline">
-          Ma clientèle
+          {t.myClients}
         </h2>
 
         <div className="mt-3 flex flex-col items-center lg:flex-row-reverse justify-around">
@@ -41,21 +44,12 @@ const Information = () => {
           </div>
 
           <div className="mt-8 w-80 lg:w-[600px] text-justify">
-            <p className="text-[1.2em]">
-              Cette formation s’adresse aux personnes ayant appris le français
-              et souhaitant améliorer leur niveau dans un objectif
-              professionnel. L’enseignement leur permet d’accéder à une
-              meilleure maîtrise de la langue et les aide à prendre la parole en
-              français. Il devient ainsi possible de communiquer avec des
-              collègues, clients ou prospects francophones mais aussi de
-              réaliser des présentations ou encore mener des négociations en
-              français.
-            </p>
+            <p className="text-[1.2em]">{t.myClientP}</p>
           </div>
         </div>
 
         <h2 className="mt-10 p-4 text-center text-[1.7em] italic tracking-wide underline">
-          Mes élèves
+          {t.myStudents}
         </h2>
 
         <div className="mt-3 flex flex-col items-center lg:flex-row justify-around">
@@ -64,19 +58,7 @@ const Information = () => {
           </div>
 
           <div className="mt-8 mb-16 w-80 lg:w-[600px] text-justify">
-            <p className="text-[1.2em]">
-              Mes « élèves » sont des personnes de nationalités très diverses et
-              ayant appris le français. Leur niveau est au minimum A2. La langue
-              support des cours peut être l’allemand ou l’anglais. Chaque cours
-              sait s’adapter aux besoins de l’élève (domaine d’activité par
-              exemple). Nous travaillons avec des supports rédigés dans un
-              français moderne, actuel, efficace. Il est également possible de
-              travailler avec les supports suggérés par les élèves. Bien sûr, je
-              garantis une confidentialité absolue. Selon les besoins et les
-              attentes de l’élève, la formation propose un mix de conversation,
-              compréhension et expression orales, lecture de textes actuels ou
-              encore traduction.
-            </p>
+            <p className="text-[1.2em]">{t.myStudentsP}</p>
           </div>
         </div>
 
