@@ -17,8 +17,10 @@ const TestimonialList = () => {
     fetchTestimonialList();
   }, []);
 
-  const handleDelete = (id) => {
-    axios.delete(`api/testimonials/${id}`).then(() => fetchTestimonialList);
+  const handleDelete = async (id) => {
+    await axios
+      .delete(`api/testimonials/${id}`)
+      .then(() => fetchTestimonialList());
   };
 
   return (
