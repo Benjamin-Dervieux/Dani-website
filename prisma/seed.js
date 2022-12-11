@@ -12,7 +12,7 @@ const seed = async () => {
         author: "T.B. Belfast, U.K.",
       },
       {
-        rating: 3,
+        rating: 5,
         title: "Berufserfahrung",
         content:
           "Ich kann Danielle nur wärmstens empfehlen. Seit über zwei Jahren habe ich nun schon mit ihr Online-Französischunterricht und bin immer noch so begeistert wie am ersten Tag, denn der Unterricht macht nicht nur Spaß und sondern man lernt auch sehr viel. Ich bin immer wieder erstaunt, wie viel ich bereits in den letzten zwei Jahren an Wortschatz und Grammatik gelernt habe. Danielle geht immer auf meine Wünsche ein und findet abwechslungsreiches und spannendes Unterrichtsmaterial, das mich interessiert. Die Flexiblität, die ein Online-Unterricht bietet, möchte ich nicht missen, da ich oft auf Geschäftsreisen bin. Wie gesagt, Online-Unterricht mit Danielle kann ich nur empfehlen.",

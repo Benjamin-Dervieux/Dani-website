@@ -3,17 +3,17 @@ import { useState } from "react";
 import Layout from "../components/Layout/Layout";
 import axios from "axios";
 import { useRouter } from "next/router";
-import RatingStar from "../components/RatingStar/RatingStar";
+import RatingStars from "../components/RatingStars/RatingStars";
 
 const NewTestimonial = () => {
   const router = useRouter();
 
-  const [rating, setRating] = useState("");
+  const [rating, setRating] = useState(0);
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [author, setAuthor] = useState("");
 
-  const [userRating, setUserRating] = useState("");
+  const [userRating, setUserRating] = useState(0);
   const [userTitle, setUserTitle] = useState("");
   const [userContent, setUserContent] = useState("");
   const [userAuthor, setUserAuthor] = useState("");
@@ -36,7 +36,7 @@ const NewTestimonial = () => {
         console.log(response);
       })
       .then(() => {
-        setRating("");
+        setUserRating("");
         setUserTitle("");
         setUserContent("");
         setUserAuthor("");
@@ -58,7 +58,8 @@ const NewTestimonial = () => {
         <h3 className="text-center text-lg tracking-wide mb-3">
           Évaluez Danielle
         </h3>
-        <RatingStar
+
+        <RatingStars
           value={userRating}
           onChange={(e) => setUserRating(e.target.value)}
         />

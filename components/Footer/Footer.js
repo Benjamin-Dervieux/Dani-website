@@ -1,27 +1,36 @@
 import React from "react";
 import { BsGeoFill, BsPhoneFill } from "react-icons/bs";
+import { useRouter } from "next/router";
+
+import en from "../../public/locales/en/en";
+import fr from "../../public/locales/fr/fr";
+import de from "../../public/locales/de/de";
 
 const Footer = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "fr" ? fr : en;
+
   return (
     <div className="bottom-0 w-full">
       <div className="w-full h-2 bg-dani-selected" />
       <div className=" bg-dani-green">
         <div className="max-w-[1240px] m-auto flex justify-center flex-col items-center p-4 text-white">
           <div className="underline">
-            <h2>Horaires</h2>
+            <h2>{t.schedules}</h2>
           </div>
-          <p>Du Lundi au Vendredi de 9h à 12h30 et de 14h à 19h</p>
+          <p className="text-center">{t.schedulesP}</p>
 
           <div className="underline">
-            <h2>Coordonnées</h2>
+            <h2>{t.contactDetails}</h2>
           </div>
           <div className="flex justify-around items-center">
             <BsGeoFill className="" size={20} />
-            <p>Lyon</p>
+            <p>{t.lyon}</p>
           </div>
           <div className="flex justify-around items-center">
-            <BsPhoneFill className="" size={20} />
-            <p>+33 6 74 81 19 75 </p>
+            <BsPhoneFill size={20} />
+            <p>{t.tel}</p>
           </div>
         </div>
       </div>

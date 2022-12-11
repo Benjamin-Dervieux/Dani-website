@@ -9,7 +9,7 @@ datasource db {
 
 model testimonials {
   id        Int       @id @default(autoincrement())
-  rating    Int       @default(3)
+  rating    Int       @default(0)
   title     String?   @db.VarChar(255)
   content   String    @db.Text
   author    String    @db.VarChar(255)

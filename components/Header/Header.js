@@ -2,9 +2,22 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useRouter } from "next/router";
+
+import en from "../../public/locales/en/en";
+import fr from "../../public/locales/fr/fr";
+import de from "../../public/locales/de/de";
 
 const Header = () => {
   const [nav, setNav] = useState(false);
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "fr" ? fr : en;
+
+  const handleChangeLanguage = (e) => {
+    const locale = e.target.value;
+    router.push(router.pathname, router.asPath, { locale });
+  };
 
   const handleNav = () => {
     setNav(!nav);
@@ -26,20 +39,29 @@ const Header = () => {
         <nav>
           <ul className="hidden sm:flex">
             <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
-              <Link href="/">Accueil</Link>
+              <Link href="/">{t.home}</Link>
             </li>
             <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
-              <Link href="/about">Qui suis-je</Link>
+              <Link href="/about">{t.about}</Link>
             </li>
             <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
-              <Link href="/informations">Informations</Link>
+              <Link href="/informations">{t.information}</Link>
             </li>
             <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
-              <Link href="/testimonials">Témoignages</Link>
+              <Link href="/testimonials">{t.testimonials}</Link>
             </li>
             <li className="p-4 text-[1.2em] hover:text-dani-selected hover:underline">
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact">{t.contact}</Link>
             </li>
+            <select
+              className="bg-dani-green"
+              onChange={handleChangeLanguage}
+              defaultValue={locale}
+            >
+              <option value="fr">FR</option>
+              <option value="en">EN</option>
+              <option value="de">DE</option>
+            </select>
           </ul>
         </nav>
 
@@ -63,32 +85,42 @@ const Header = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-dani-selected hover:underline"
             >
-              <Link href="/">Accueil</Link>
+              <Link href="/">{t.home}</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-dani-selected hover:underline"
             >
-              <Link href="/about">Qui suis-je</Link>
+              <Link href="/about">{t.about}</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-dani-selected hover:underline"
             >
-              <Link href="/informations">Informations</Link>
+              <Link href="/informations">{t.information}</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-dani-selected hover:underline"
             >
-              <Link href="/testimonials">Témoignages</Link>
+              <Link href="/testimonials">{t.testimonials}</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-dani-selected hover:underline"
             >
-              <Link href="/contact">Contact</Link>
+              <Link href="/contact">{t.contact}</Link>
             </li>
+
+            <select
+              className="bg-dani-green"
+              onChange={handleChangeLanguage}
+              defaultValue={locale}
+            >
+              <option value="fr">FR</option>
+              <option value="en">EN</option>
+              <option value="de">DE</option>
+            </select>
           </ul>
         </div>
       </div>
