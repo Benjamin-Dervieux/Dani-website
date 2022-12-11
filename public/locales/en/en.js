@@ -49,4 +49,27 @@ export default {
   myStudents: "My students",
   myStudentsP:
     'My "students" are people of many different nationalities who have learned French. Their level is at least A2. The language of instruction can be German or English. Each course is adapted to the needs of the student (e.g. field of activity). We work with materials written in modern, up-to-date and efficient French. It is also possible to work with materials suggested by the students. Of course, I guarantee absolute confidentiality. Depending on the needs and expectations of the student, the course offers a mix of conversation, oral comprehension and expression, reading of current texts and translation.',
+
+  /*Contact*/
+  titleContact: "Make an appointment with Danielle Desteucq-Roettger",
+  lastname: "Lastname",
+  firstname: "Firstname",
+  email: "E-mail",
+  telC: "Phone number",
+  subject: "Subject",
+  message: "Message",
+  send: "Send",
+  contact: "Contact",
+  nameC: "Danielle Desteucq - Roettger",
+  lyonC: "Lyon",
+  telCon: "+33 6 74 81 19 75",
+  mail: "E-mail",
+  emailAdresse: "contact@danielle-roettger.fr",
+  mailP: "Send me an e-mail",
+  linkedin: "Linkedin",
+  linkedinP: "Danielle Desteucq-Roettger",
+  linkedinL: "My Linkedin profile",
+  xing: "Xing",
+  xingP: "Danielle Desteucq-Roettger",
+  xingL: "My Xing profile",
 };

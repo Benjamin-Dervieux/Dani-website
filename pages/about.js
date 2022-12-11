@@ -14,7 +14,7 @@ import de from "../public/locales/de/de";
 export default function About() {
   const router = useRouter();
   const { locale } = router;
-  const t = locale === "fr" ? fr : en;
+  const t = locale === "en" ? en : locale === "de" ? de : fr;
 
   return (
     <Layout pageTitle="about">

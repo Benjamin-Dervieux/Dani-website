@@ -50,4 +50,27 @@ export default {
   myStudents: "Meine Studenten",
   myStudentsP:
     'Meine "Studenten" sind Menschen vieler verschiedener Nationalitäten, die Französisch gelernt haben. Ihr Niveau ist mindestens A2. Die Unterrichtssprache kann Deutsch oder Englisch sein. Jeder Kurs wird an die Bedürfnisse des Schülers angepasst (z.B. Tätigkeitsbereich). Wir arbeiten mit Materialien, die in modernem, aktuellem und effizientem Französisch verfasst sind. Es ist auch möglich, mit Materialien zu arbeiten, die von den Schülern vorgeschlagen werden. Selbstverständlich garantiere ich absolute Vertraulichkeit. Je nach den Bedürfnissen und Erwartungen des Schülers bietet der Kurs eine Mischung aus Konversation, mündlichem Verständnis und Ausdruck, Lesen von aktuellen Texten und Übersetzung.',
+
+  /*Contact*/
+  titleContact: "Einen Termin vereinbaren mit Danielle Desteucq-Roettger",
+  lastname: "Nachname",
+  firstname: "Vorname",
+  email: "E-mail",
+  telC: "Telefonnummer",
+  subject: "Thema",
+  message: "Nachricht",
+  send: "Senden Sie",
+  contact: "Kontakt",
+  nameC: "Danielle Desteucq - Roettger",
+  lyonC: "Lyon",
+  telCon: "+33 6 74 81 19 75",
+  mail: "E-mail",
+  emailAdresse: "contact@danielle-roettger.fr",
+  mailP: "Schicken Sie mir eine E-Mail",
+  linkedin: "Linkedin",
+  linkedinP: "Danielle Desteucq-Roettger",
+  linkedinL: "Mein Linkedin-Profil",
+  xing: "Xing",
+  xingP: "Danielle Desteucq-Roettger",
+  xingL: "Mein Xing-Profil",
 };
