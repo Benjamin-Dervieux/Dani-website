@@ -4,8 +4,16 @@ import { SlBubbles } from "react-icons/sl";
 import Link from "next/link";
 import { TestimonialContext } from "../context/testimonialContext";
 import TestimonialList from "../components/TestimonialList/TestimonialList";
+import { useRouter } from "next/router";
+
+import en from "../public/locales/en/en";
+import fr from "../public/locales/fr/fr";
+import de from "../public/locales/de/de";
 
 const Testimonials = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : locale === "de" ? de : fr;
   const { testiList } = useContext(TestimonialContext);
 
   return (
@@ -16,7 +24,7 @@ const Testimonials = () => {
 
       <div className="mt-8 flex flex-col items-center">
         <h1 className="text-[1.7em] text-center italic tracking-wide">
-          Témoignages sur Danielle Desteucq-Roettger
+          {t.titleTesti}
         </h1>
 
         <div className="lg:w-[1200px] lg:flex flex-row-reverse justify-around ml-4">
@@ -25,22 +33,24 @@ const Testimonials = () => {
               <div className="text-white">
                 <SlBubbles size={35} />
               </div>
-              <h2 className="text-white">Témoignages</h2>
+              <h2 className="text-white">{t.testimonials}</h2>
             </div>
             <div>
-              <p className="text-end mr-20">{testiList.length} avis</p>
+              <p className="text-end mr-20">
+                {testiList.length} {t.opinion}
+              </p>
             </div>
           </div>
 
           <div className="w-80 h-60 lg:w-[700px] lg:h-40 bg-dani-green rounded-xl mt-8 flex justify-center">
             <div className=" w-72 h-60 lg:w-[700px] lg:h-40 flex flex-col justify-around items-center lg:flex-row">
               <h2 className="text-white text-xl text-center w-60 lg:w-[500px]">
-                Vous souhaitez recommander mon approche de l’apprentissage ?
+                {t.leaveComment}
               </h2>
               <div className="bg-dani-selected rounded-md w-36 lg:w-44 mr-4">
                 <Link href="/newTestimonial">
                   <button className="text-white" type="button">
-                    Partager mon témoignage
+                    {t.share}
                   </button>
                 </Link>
               </div>
