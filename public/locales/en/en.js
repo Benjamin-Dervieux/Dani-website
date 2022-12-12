@@ -50,6 +50,21 @@ export default {
   myStudentsP:
     'My "students" are people of many different nationalities who have learned French. Their level is at least A2. The language of instruction can be German or English. Each course is adapted to the needs of the student (e.g. field of activity). We work with materials written in modern, up-to-date and efficient French. It is also possible to work with materials suggested by the students. Of course, I guarantee absolute confidentiality. Depending on the needs and expectations of the student, the course offers a mix of conversation, oral comprehension and expression, reading of current texts and translation.',
 
+  /*Testimonials*/
+  titleTesti: "Testimonials about Danielle Desteucq-Roettger",
+  testimonials: "Testimonials",
+  opinion: "opinions",
+  leaveComment: "Would you like to recommend my approach to learning?",
+  share: "Share my testimony",
+
+  /*New testimonials*/
+  dropComment: "Leave a comment",
+  titleNexTesti: "Rate Danielle",
+  title: "Title",
+  commentary: "Commentary",
+  author: "Author",
+  btn: "Send",
+
   /*Contact*/
   titleContact: "Make an appointment with Danielle Desteucq-Roettger",
   lastname: "Lastname",

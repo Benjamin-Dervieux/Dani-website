@@ -5,8 +5,17 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { FaXingSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
-const contact = () => {
+import en from "../public/locales/en/en";
+import fr from "../public/locales/fr/fr";
+import de from "../public/locales/de/de";
+
+const Contact = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : locale === "de" ? de : fr;
+
   return (
     <Layout pageTitle="Contact">
       <div className="mt-28">
@@ -15,7 +24,7 @@ const contact = () => {
 
       <div className="mt-8">
         <h1 className="text-[1.7em] text-center italic tracking-wide">
-          Prendre rendez-vous avec Danielle Desteucq-Roettger
+          {t.titleContact}
         </h1>
       </div>
 
@@ -25,7 +34,7 @@ const contact = () => {
             className="ml-4 mb-4 lg:ml-32 text-lg lg:text-[1.2em]"
             htmlFor="lastname"
           >
-            Nom
+            {t.lastname}
           </label>
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -37,7 +46,7 @@ const contact = () => {
             className="ml-4 lg:ml-32 mt-4 mb-2 text-lg lg:text-[1.2em]"
             htmlFor="firstname"
           >
-            Prénom
+            {t.firstname}
           </label>
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -49,7 +58,7 @@ const contact = () => {
             className="ml-4 lg:ml-32 mt-4 mb-2 text-lg lg:text-[1.2em]"
             htmlFor="email"
           >
-            Email
+            {t.email}
           </label>
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -61,7 +70,7 @@ const contact = () => {
             className="ml-4 lg:ml-32 mt-4 mb-2 text-lg lg:text-[1.2em]"
             htmlFor="telephone"
           >
-            Téléphone
+            {t.telC}
           </label>
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -73,7 +82,7 @@ const contact = () => {
             className="ml-4 lg:ml-32 mt-4 mb-2 text-lg lg:text-[1.2em]"
             htmlFor="subject"
           >
-            Sujet
+            {t.subject}
           </label>
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -85,7 +94,7 @@ const contact = () => {
             className="ml-4 lg:ml-32 mt-4 mb-2 text-lg lg:text-[1.2em]"
             htmlFor="message"
           >
-            Message
+            {t.message}
           </label>
           <textarea
             className="w-[355px] lg:w-[600px] h-36 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -98,7 +107,7 @@ const contact = () => {
               className="w-56 h-10 bg-dani-selected rounded-md text-white shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"
               type="submit"
             >
-              Envoyer
+              {t.send}
             </button>
           </div>
         </form>
@@ -109,7 +118,7 @@ const contact = () => {
               <div className="w-[316px] h-20 bg-dani-green flex rounded-t-lg flex-col items-center">
                 <div className="text-white text-lg">
                   <BsPencilSquare size={35} />
-                  <h2>Contact</h2>
+                  <h2>{t.contact}</h2>
                 </div>
               </div>
               <div className="w-80 h-52 flex flex-col justify-around">
@@ -117,19 +126,19 @@ const contact = () => {
                   <div className="text-dani-selected">
                     <BsPersonCircle size={35} />
                   </div>
-                  <p className="ml-3">Danielle Desteucq - Roettger</p>
+                  <p className="ml-3">{t.nameC}</p>
                 </div>
                 <div className="ml-6 flex items-center text-lg">
                   <div className="text-dani-selected">
                     <BsGeoFill size={35} />
                   </div>
-                  <p className="ml-3">Lyon</p>
+                  <p className="ml-3">{t.lyonC}</p>
                 </div>
                 <div className="ml-6 flex items-center text-lg">
                   <div className="text-dani-selected">
                     <BsPhoneFill size={35} />
                   </div>
-                  <p className="ml-3">+33 6 74 81 19 75 </p>
+                  <p className="ml-3">{t.telCon}</p>
                 </div>
               </div>
             </div>
@@ -140,14 +149,12 @@ const contact = () => {
               <div>
                 <div className="flex justify-center items-center text-white">
                   <MdEmail size={35} />
-                  <h3 className="ml-4 text-lg">Email</h3>
+                  <h3 className="ml-4 text-lg">{t.mail}</h3>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-lg text-white">
-                    contact@danielle-roettger.fr
-                  </p>
+                  <p className="text-lg text-white">{t.emailAdresse}</p>
                   <div className="text-lg text-white underline">
-                    <Link href="/contact">Envoyez-moi un email</Link>
+                    <Link href="/contact">{t.mailP}</Link>
                   </div>
                 </div>
               </div>
@@ -157,15 +164,13 @@ const contact = () => {
               <div>
                 <div className="flex justify-center items-center text-white">
                   <AiOutlineLinkedin size={35} />
-                  <h3 className="ml-4 text-lg">Linkedin</h3>
+                  <h3 className="ml-4 text-lg">{t.linkedin}</h3>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-lg text-white">
-                    Danielle Desteucq-Roettger
-                  </p>
+                  <p className="text-lg text-white">{t.linkedinP}</p>
                   <div className="text-lg text-white underline">
                     <Link href="https://www.linkedin.com/in/danielle-desteucq-r%C3%B6ttger-219b6328/">
-                      Mon profil linkedin
+                      {t.linkedinL}
                     </Link>
                   </div>
                 </div>
@@ -176,18 +181,16 @@ const contact = () => {
               <div>
                 <div className="flex justify-center items-center text-white">
                   <FaXingSquare size={35} />
-                  <h3 className="ml-4 text-lg">Xing</h3>
+                  <h3 className="ml-4 text-lg">{t.xing}</h3>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-lg text-white">
-                    Danielle Desteucq-Roettger
-                  </p>
+                  <p className="text-lg text-white">{t.xingP}</p>
                   <div className="text-lg text-white underline">
                     <Link
                       className="text-lg text-white"
                       href="https://www.xing.com/profile/Danielle_DesteucqRoettger"
                     >
-                      Mon profil xing
+                      {t.xingL}
                     </Link>
                   </div>
                 </div>
@@ -200,4 +203,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

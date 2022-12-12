@@ -50,6 +50,21 @@ export default {
   myStudentsP:
     "Mes « élèves » sont des personnes de nationalités très diverses et ayant appris le français. Leur niveau est au minimum A2. La langue support des cours peut être l’allemand ou l’anglais. Chaque cours sait s’adapter aux besoins de l’élève (domaine d’activité par exemple). Nous travaillons avec des supports rédigés dans un français moderne, actuel, efficace. Il est également possible de travailler avec les supports suggérés par les élèves. Bien sûr, je garantis une confidentialité absolue. Selon les besoins et les attentes de l’élève, la formation propose un mix de conversation, compréhension et expression orales, lecture de textes actuels ou encore traduction.",
 
+  /*Testimonials*/
+  titleTesti: "Témoignages sur Danielle Desteucq-Roettger",
+  testimonials: "Témoignages",
+  opinion: "avis",
+  leaveComment: "Vous souhaitez recommander mon approche de l’apprentissage ?",
+  share: "Partager mon témoignage",
+
+  /*New testimonials*/
+  dropComment: "Laisser un commentaire",
+  titleNexTesti: "Évaluez Danielle",
+  title: "Titre",
+  commentary: "Votre commentaire",
+  author: "Auteur",
+  btn: "Envoyer",
+
   /*Contact*/
   titleContact: "Prendre rendez-vous avec Danielle Desteucq-Roettger",
   lastname: "Nom",

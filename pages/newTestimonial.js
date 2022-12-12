@@ -5,8 +5,14 @@ import axios from "axios";
 import { useRouter } from "next/router";
 import RatingStars from "../components/RatingStars/RatingStars";
 
+import en from "../public/locales/en/en";
+import fr from "../public/locales/fr/fr";
+import de from "../public/locales/de/de";
+
 const NewTestimonial = () => {
   const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : locale === "de" ? de : fr;
 
   const [rating, setRating] = useState(0);
   const [title, setTitle] = useState("");
@@ -51,12 +57,12 @@ const NewTestimonial = () => {
       </div>
 
       <h1 className="p-4 text-center text-[1.7em] italic tracking-wide underline">
-        Laisser un commentaire
+        {t.dropComment}
       </h1>
 
       <div className="mt-8 mb-12">
         <h3 className="text-center text-lg tracking-wide mb-3">
-          Évaluez Danielle
+          {t.titleNexTesti}
         </h3>
 
         <RatingStars
@@ -71,7 +77,7 @@ const NewTestimonial = () => {
             className="ml-4 mb-2 lg:ml-32 text-lg lg:text-[1.2em]"
             htmlFor="title"
           >
-            Titre
+            {t.title}
           </label>
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -83,7 +89,7 @@ const NewTestimonial = () => {
             className="ml-4 mb-4 mt-2 lg:ml-32 text-lg lg:text-[1.2em]"
             htmlFor="content"
           >
-            Votre commentaire
+            {t.commentary}
           </label>
           <textarea
             className="w-[355px] lg:w-[600px] h-36 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -96,7 +102,7 @@ const NewTestimonial = () => {
             className="ml-4 mb-4 mt-2 lg:ml-32 text-lg lg:text-[1.2em]"
             htmlFor="author"
           >
-            Auteur
+            {t.author}
           </label>
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
@@ -113,7 +119,7 @@ const NewTestimonial = () => {
                 type="submit"
                 onClick={handleSubmit}
               >
-                Envoyer
+                {t.btn}
               </button>
             </Link>
           </div>
