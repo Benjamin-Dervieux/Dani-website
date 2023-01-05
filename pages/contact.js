@@ -115,9 +115,11 @@ const Contact = () => {
         <div>
           <div className="flex justify-center">
             <div className="mt-8 w-80 h-72 border-2 border-dani-green rounded-xl">
-              <div className="w-[316px] h-20 bg-dani-green flex rounded-t-lg flex-col items-center">
+              <div className="w-[316px] h-20 bg-dani-green flex rounded-t-lg flex-col justify-center items-center">
                 <div className="text-white text-lg">
-                  <BsPencilSquare size={35} />
+                  <div className="flex justify-center">
+                    <BsPencilSquare size={35} />
+                  </div>
                   <h2>{t.contact}</h2>
                 </div>
               </div>
