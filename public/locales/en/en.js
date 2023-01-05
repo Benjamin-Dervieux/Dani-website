@@ -20,35 +20,35 @@ export default {
 
   /*Pages => */
   /*Home*/
-  welcomeMessage: "Online Business French Course",
+  welcomeMessage: "Improve your French business language!",
   danielleProfession: "Danielle Desteucq-Roettger Translator - Interpreter",
 
   /*About*/
   whoAmI: "Who am i ?",
   whoAmIP:
-    "My experience comes from many years of working with students from all walks of life. My studies and career as a DE (German-French) translator/interpreter have led me to meet many people who regret having to go through an interpreter to conduct their business. This is how I became interested in teaching business French. It is an exciting profession because it helps people to improve their skills and access new professional opportunities.",
+    "I have many years of experience with students of all levels and with different expectations. My career as a Certified Translator and Interpreter (German-French) has given me the opportunity to meet many people who have had to use the services of an interpreter to conduct their business in France or with French speaking partners and regretted not being able to talk fluently with them. This is how I changed the direction of my career and began to teach business French about 10 years ago.",
   formation: "Formation",
   formationList: {
-    li1: "Graduated from IFAG (Management school - ICG Paris)",
-    li2: "Certified translator and interpreter of the Chamber of Commerce and Industry of Wiesbaden, (IHK Wiesbaden), Germany",
-    li3: "Graduate of the Franco-German Chamber of Commerce and Industry of Paris (Speciality: Commercial German), Paris, France",
-    li4: "Graduate of the Goethe Institute, Frankfurt, Germany",
-    li5: "Traductrice diplômée de l'AKAD (University for Professionals), Stuttgart, Allemagne",
-    li6: "State Certified Translator and Interpreter (Saarland Ministry of Education), Saarbrücken, Germany",
-    li7: "Proofreader and editor, Writing and Communication Centre, Paris",
+    li1: "Certificate in general management, IFAG Lyon, Ecole supérieure de management",
+    li2: "Highest Goethe Institute Certificate in written and spoken langage, Francfort, Germany",
+    li3: "Certificate in translation and interpretation – Chamber of Commerce and Industry of Wiedbaden, Germany",
+    li4: "Certificate in translation and interpretation (economics and business) – Franco-German Chamber of Commerce and Industry of Paris, Cologne, Germany",
+    li5: "AKAD – Certificate in translation",
+    li6: "State Certificate in translation and interpretation – Ministry of National Education, Saarbrücken, Germany",
+    li7: "Certificate in proofreading and editing, Centre d'écriture et de Communication (C.E.C.), Paris",
   },
 
   /*Informations*/
   course: "Course",
   efficiencyAndFlexibility: "Efficiency and flexibility",
   efficiencyAndFlexibilityP:
-    "The training is done online, which allows for maximum flexibility. Wherever you are, a computer and an internet connection are internet connection is all you need to attend the course. As for the course timetable you can manage them from one week to the next, according to your availability.",
-  myClients: "My clients",
+    "The training takes place online, which allows maximum flexibility. Wherever you are, a computer and an internet connection are all you need to take part in the course. The courses can be scheduled from one week to the next, depending on your availability. If there is any problem taking part in the lesson, it’s possible to reschedule them.",
+  myClients: "My audience",
   myClientP:
-    "This course is aimed at people who have learnt French and wish to improve their level for professional purposes. The course enables them to gain a better command of the language and helps them to speak in French. This makes it possible to communicate with French-speaking colleagues, clients or prospects, but also to make presentations or conduct negotiations in French.",
+    "This course is designed for those who have learned French and who want to improve their level for professional purposes. It will help them to develop business proficiency in French and will give them the confidence to speak and interact in French. They will be able to communicate in French with colleagues, clients or prospects, as well as giving presentations, conducting negotiations or accessing new professional opportunities.",
   myStudents: "My students",
   myStudentsP:
-    'My "students" are people of many different nationalities who have learned French. Their level is at least A2. The language of instruction can be German or English. Each course is adapted to the needs of the student (e.g. field of activity). We work with materials written in modern, up-to-date and efficient French. It is also possible to work with materials suggested by the students. Of course, I guarantee absolute confidentiality. Depending on the needs and expectations of the student, the course offers a mix of conversation, oral comprehension and expression, reading of current texts and translation.',
+    'The "students" are people who come from different countries. They all have learned French and their level is at least A2 (Intermediate). The support language we use during the lessons - if necessary - can be either German or English. The courses are adapted to the needs of the students (e.g. field of activity). The teaching materials are modern and include business and management topics. It is also possible to work with materials suggested by the students e.g. work presentation or report. Of course, absolute confidentiality is guaranteed. Depending on the needs and expectations of the student, the training offers a mix of conversation, listening comprehension and expression, reading up to date and relevant texts about current affairs or translation.',
 
   /*Testimonials*/
   titleTesti: "Testimonials about Danielle Desteucq-Roettger",

@@ -2,7 +2,7 @@
 export default {
   /*Components => */
   /*Nav*/
-  home: "Acceuil",
+  home: "Accueil",
   about: "Qui suis-je ?",
   information: "Informations",
   testimonials: "Témoignages",

@@ -21,39 +21,39 @@ export default {
 
   /*Pages => */
   /*Home*/
-  welcomeMessage: "Online-Kurs für Wirtschaftsfranzösisch",
+  welcomeMessage: "Französisch Business Course Online",
   danielleProfession: "Danielle Desteucq-Roettger Übersetzerin - Dolmetscherin",
 
   /*About*/
   whoAmI: "Wer bin ich?",
   whoAmIP:
-    "Meine Erfahrung ist das Ergebnis jahrelanger Arbeit mit Schülern aus den unterschiedlichsten Bereichen. Durch mein Studium und meine Karriere als Übersetzerin/Dolmetscherin DE (Deutsch-Französisch) bin ich mit vielen Menschen in Kontakt gekommen, die es bedauerten, dass sie für ihre Geschäfte auf einen Dolmetscher angewiesen waren. So begann ich, mich für das Unterrichten von Geschäftsfranzösisch zu interessieren. Es ist ein spannender Beruf, weil man Menschen dabei helfen kann, ihre Fähigkeiten zu verbessern und neue berufliche Möglichkeiten zu erschließen.",
+    "Meine Erfahrung ist das Ergebnis langjähriger Arbeit mit Menschen aus vielen Ländern und Berufsbereichen. Durch meine Ausbildung und meine Karriere als Übersetzerin und Dolmetscherin traf ich viele Menschen, die sich sehr gewünscht hätten, mit ihren Gesprächspartnern unterhalten zu können, dazu aber nicht in der Lage waren. So began meine Karriere als Sprachtrainerin vor etwa 10 Jahren.",
   formation: "Ausbildung",
   formationList: {
-    li1: "Absolvent der IFAG (Managementschule - ICG Paris)",
-    li2: "Geprüfte Übersetzerin und Dolmetscherin der Industrie- und Handelskammer Wiesbaden (IHK Wiesbaden), Deutschland",
-    li3: "Absolventin der Deutsch-Französischen Industrie- und Handelskammer Paris (Fachgebiet: Wirtschaftsdeutsch), Paris, Frankreich",
-    li4: "Absolvent des Goethe-Instituts, Frankfurt, Deutschland",
-    li5: "Diplom-Übersetzerin der AKAD (University for Professionals), Stuttgart, Deutschland",
-    li6: "Staatlich geprüfte Übersetzerin und Dolmetscherin (Ministerium für Bildung des Saarlandes), Saarbrücken, Deutschland",
-    li7: "Lektorin und Redakteurin, Zentrum für Schreiben und Kommunikation, Paris",
+    li1: "Management Ausbildung (IFAG – Lyon/Paris)",
+    li2: "Von der Industrie- und Handelskammer (Wiesbaden) geprüfte Dolmetscherin und Übersetzerin",
+    li3: "Von der deutsch-französischen Industrie- und Handelskammer (Paris) geprüfte Übersetzerin",
+    li4: "Großes Sprachdiplom des Goethe-Instituts, Frankfurt",
+    li5: "Von der AKAD (Hochschule für Berufstätige, Stuttgart) geprüfte Übersetzerin",
+    li6: "Vom Ministerium für Bildung, Kultur und Wissenschaft geprüfte Dolmetscherin und Übersetzerin (Saarland)",
+    li7: "Korrektorin und Redakteurin, Centre d’écriture et de communication, Paris",
   },
 
   /*Information*/
   course: "Strecke",
   efficiencyAndFlexibility: "Effizienz und Flexibilität",
   efficiencyAndFlexibilityP:
-    "Die Schulung wird online durchgeführt, was ein Höchstmaß an Flexibilität ermöglicht. Wo auch immer Sie sich befinden, ein Computer und eine Internetverbindung sind alles, was Sie brauchen, um an dem Kurs teilzunehmen. Was den Zeitplan des Kurses betrifft, so können Sie ihn von einer Woche zur nächsten je nach Ihrer Verfügbarkeit verwalten.",
-  myClients: "Meine Kunden",
+    "Der Kurs findet online statt, wodurch eine maximale Flexibilität gewährleistet wird. Wo auch immer Sie sind, ein Computer und eine Internetverbindung sind alles was Sie brauchen, um am Unterricht teilzunehmen. Die Unterrichtsstunden können von Woche zur Woche gebucht werden. Ebenso einfach können geplante Kurse, wenn nötig, umgebucht werden.",
+  myClients: "In Französisch (ver)handlen",
   myClientP:
-    "Dieser Kurs richtet sich an Personen, die Französisch gelernt haben und ihr Niveau für berufliche Zwecke verbessern möchten. Der Kurs ermöglicht es ihnen, die Sprache besser zu beherrschen und auf Französisch zu sprechen. Dies ermöglicht es, mit französischsprachigen Kollegen, Kunden oder Interessenten zu kommunizieren, aber auch Präsentationen oder Verhandlungen auf Französisch zu führen.",
-  myStudents: "Meine Studenten",
+    "Dieser Kurs richtet sich an diejenigen, die Französisch gelernt haben und die ihre Sprachkompetenzen aus beruflichen Gründen verbessern möchten. Der Unterricht ermöglicht ihnen, die französische Sprache in kurzer Zeit zu beherrschen und gibt ihnen das nötige Vertrauen und die Kompetenz, um sich mit ihren verschiedenen Gesprächspartnern zu unterhalten. Ziel ist es schnellstmöglich Verhandlungen und Gespräche auf Französisch zu führen und Präsentationen zu halten. Die Beherrschung der Landessprache ist nicht selten ein Schlüssel, der das Tor zu neuen Entwicklungen öffnet.",
+  myStudents: "Methode und Lerninhalte : aktuell und praxisnah",
   myStudentsP:
-    'Meine "Studenten" sind Menschen vieler verschiedener Nationalitäten, die Französisch gelernt haben. Ihr Niveau ist mindestens A2. Die Unterrichtssprache kann Deutsch oder Englisch sein. Jeder Kurs wird an die Bedürfnisse des Schülers angepasst (z.B. Tätigkeitsbereich). Wir arbeiten mit Materialien, die in modernem, aktuellem und effizientem Französisch verfasst sind. Es ist auch möglich, mit Materialien zu arbeiten, die von den Schülern vorgeschlagen werden. Selbstverständlich garantiere ich absolute Vertraulichkeit. Je nach den Bedürfnissen und Erwartungen des Schülers bietet der Kurs eine Mischung aus Konversation, mündlichem Verständnis und Ausdruck, Lesen von aktuellen Texten und Übersetzung.',
+    "Meine Kunden kommen aus vielen verschiedenen Ländern. Ihr Level ist mindestens A2/B1 (Selbstständige Sprachverwendung). Um die Kommunikation während des Unterrichts zu erleichtern, können sie je nach Wunsch Deutsch oder Englisch als Hilfssprache verwenden. Jeder Kurs wird an ihre Bedürfnisse angepasst (z.B. Tätigkeitsbereich). Es wird mit Dokumenten gearbeitet, die aktuell und praxisnah sind. Ebenso können im Unterricht eigene Dokumente verwendet, bzw. korrigiert werden. Selbstverständlich werden diese Dokumente absolut vertraulich behandelt. Je nach Bedürfnissen und Erwartungen bietet das Training eine Mischung aus Konversation, Hör – und Leseverständnis, diversen Übungen und Grammatik.",
 
   /*Testimonials*/
   titleTesti: "Erfahrungsberichte über Danielle Desteucq-Roettger",
-  testimonials: "Erfahrungsberichte",
+  testimonials: "Empfehlungen",
   opinion: "Meinung",
   leaveComment: "Sie möchten meinen Lernansatz empfehlen?",
   share: "Mein Zeugnis teilen",
