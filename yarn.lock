@@ -1667,6 +1667,7 @@
   dependencies:
     "braces" "^3.0.2"
     "picomatch" "^2.3.1"
+    string-convert "^0.2.0"
 
 "mime-db@1.52.0":
   "integrity" "sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg=="
