@@ -82,6 +82,7 @@ const NewTestimonial = () => {
           <input
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
             type="text"
+            required
             value={userTitle}
             onChange={(e) => setUserTitle(e.target.value)}
           />
