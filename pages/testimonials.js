@@ -120,12 +120,9 @@ const Testimonials = () => {
               <h2 className="text-white text-xl text-center w-60 lg:w-[500px]">
                 {t.leaveComment}
               </h2>
-              <div className="bg-dani-selected rounded-md w-36 lg:w-44 mr-4">
+              <div className="bg-dani-selected rounded-md w-44 lg:w-44 h-12 mr-4 flex justify-center ">
                 <Link href="/newTestimonial">
-                  <button
-                    className="w-[180px] h-[50px] text-white"
-                    type="button"
-                  >
+                  <button className="text-white " type="button">
                     {t.share}
                   </button>
                 </Link>
