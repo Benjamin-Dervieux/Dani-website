@@ -57,7 +57,7 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-24 flex justify-end">{t.opinion}</div>
+                  <div className="ml-16 flex justify-end">{t.opinion}</div>
                 </div>
                 <div className="flex justify-start">
                   {stars4.map((_, index) => {
@@ -70,7 +70,7 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-32 flex justify-end">{t.opinion}</div>
+                  <div className="ml-24 flex justify-end">{t.opinion}</div>
                 </div>
                 <div className="flex">
                   {stars3.map((_, index) => {
@@ -83,7 +83,7 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-40 flex justify-end">{t.opinion}</div>
+                  <div className="ml-32 flex justify-end">{t.opinion}</div>
                 </div>
                 <div className="flex">
                   {stars2.map((_, index) => {
@@ -96,7 +96,7 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-48 flex justify-end">{t.opinion}</div>
+                  <div className="ml-40 flex justify-end">{t.opinion}</div>
                 </div>
                 <div className="flex">
                   {stars1.map((_, index) => {
@@ -109,7 +109,7 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-52 flex justify-end">{t.opinion}</div>
+                  <div className="ml-48 flex justify-end">{t.opinion}</div>
                 </div>
               </div>
             </div>

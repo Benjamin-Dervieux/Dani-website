@@ -24,7 +24,7 @@ const TestimonialList = () => {
   };
 
   return (
-    <div className="mb-8">
+    <div className="mb-8 md:ml-72 lg:ml-72">
       {testimoList.map((testimonials) => {
         return (
           <div key={testimonials.id}>
