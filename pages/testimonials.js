@@ -5,6 +5,7 @@ import Link from "next/link";
 import { TestimonialContext } from "../context/testimonialContext";
 import TestimonialList from "../components/TestimonialList/TestimonialList";
 import { useRouter } from "next/router";
+import { FaStar } from "react-icons/fa";
 
 import en from "../public/locales/en/en";
 import fr from "../public/locales/fr/fr";
@@ -15,6 +16,11 @@ const Testimonials = () => {
   const { locale } = router;
   const t = locale === "en" ? en : locale === "de" ? de : fr;
   const { testiList } = useContext(TestimonialContext);
+  const stars5 = Array(5).fill(0);
+  const stars4 = Array(4).fill(0);
+  const stars3 = Array(3).fill(0);
+  const stars2 = Array(2).fill(0);
+  const stars1 = Array(1).fill(0);
 
   return (
     <Layout pageTitle="Testimonials">
@@ -36,9 +42,76 @@ const Testimonials = () => {
               <h2 className="text-white">{t.testimonials}</h2>
             </div>
             <div>
-              <p className="text-end mr-20">
-                {testiList.length} {t.opinion}
+              <p className="text-center">
+                {testiList.length} {t.totalOpinions}
               </p>
+              <div className="w-72 h-36 mt-3 flex flex-col justify-between">
+                <div className="flex">
+                  {stars5.map((_, index) => {
+                    return (
+                      <FaStar
+                        key={index}
+                        className="w-24"
+                        size={20}
+                        color={"#e3c796"}
+                      />
+                    );
+                  })}
+                  <div className="ml-24 flex justify-end">{t.opinion}</div>
+                </div>
+                <div className="flex justify-start">
+                  {stars4.map((_, index) => {
+                    return (
+                      <FaStar
+                        key={index}
+                        className="w-24"
+                        size={20}
+                        color={"#e3c796"}
+                      />
+                    );
+                  })}
+                  <div className="ml-32 flex justify-end">{t.opinion}</div>
+                </div>
+                <div className="flex">
+                  {stars3.map((_, index) => {
+                    return (
+                      <FaStar
+                        key={index}
+                        className="w-24"
+                        size={20}
+                        color={"#e3c796"}
+                      />
+                    );
+                  })}
+                  <div className="ml-40 flex justify-end">{t.opinion}</div>
+                </div>
+                <div className="flex">
+                  {stars2.map((_, index) => {
+                    return (
+                      <FaStar
+                        key={index}
+                        className="w-24"
+                        size={20}
+                        color={"#e3c796"}
+                      />
+                    );
+                  })}
+                  <div className="ml-48 flex justify-end">{t.opinion}</div>
+                </div>
+                <div className="flex">
+                  {stars1.map((_, index) => {
+                    return (
+                      <FaStar
+                        key={index}
+                        className="w-24"
+                        size={20}
+                        color={"#e3c796"}
+                      />
+                    );
+                  })}
+                  <div className="ml-52 flex justify-end">{t.opinion}</div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -49,7 +122,10 @@ const Testimonials = () => {
               </h2>
               <div className="bg-dani-selected rounded-md w-36 lg:w-44 mr-4">
                 <Link href="/newTestimonial">
-                  <button className="text-white" type="button">
+                  <button
+                    className="w-[180px] h-[50px] text-white"
+                    type="button"
+                  >
                     {t.share}
                   </button>
                 </Link>

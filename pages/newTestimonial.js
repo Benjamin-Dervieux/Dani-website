@@ -14,22 +14,18 @@ const NewTestimonial = () => {
   const { locale } = router;
   const t = locale === "en" ? en : locale === "de" ? de : fr;
 
-  const [rating, setRating] = useState(0);
+  const [rating, setRating] = useState(3);
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const [author, setAuthor] = useState("");
 
-  const [userRating, setUserRating] = useState(0);
+  const [userRating, setUserRating] = useState(3);
   const [userTitle, setUserTitle] = useState("");
   const [userContent, setUserContent] = useState("");
   const [userAuthor, setUserAuthor] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    setTitle(!title);
-    setContent(!content);
-    setAuthor(!author);
-    setRating(!rating);
 
     axios
       .post("api/testimonials", {
@@ -42,7 +38,7 @@ const NewTestimonial = () => {
         console.log(response);
       })
       .then(() => {
-        setUserRating("");
+        setUserRating(3);
         setUserTitle("");
         setUserContent("");
         setUserAuthor("");

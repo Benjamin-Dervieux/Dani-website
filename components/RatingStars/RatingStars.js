@@ -7,7 +7,7 @@ const colors = {
 };
 
 const RatingStars = () => {
-  const [currentValue, setCurrentValue] = useState(0);
+  const [currentValue, setCurrentValue] = useState(3);
   const [hoverValue, setHoverValue] = useState(undefined);
 
   const stars = Array(5).fill(0);

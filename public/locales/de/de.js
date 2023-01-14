@@ -54,6 +54,7 @@ export default {
   /*Testimonials*/
   titleTesti: "Erfahrungsberichte über Danielle Desteucq-Roettger",
   testimonials: "Empfehlungen",
+  totalOpinions: "Gesamtmeinung",
   opinion: "Meinung",
   leaveComment: "Sie möchten meinen Lernansatz empfehlen?",
   share: "Mein Zeugnis teilen",

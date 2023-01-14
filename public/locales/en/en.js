@@ -53,6 +53,7 @@ export default {
   /*Testimonials*/
   titleTesti: "Testimonials about Danielle Desteucq-Roettger",
   testimonials: "Testimonials",
+  totalOpinions: "total opinions",
   opinion: "opinions",
   leaveComment: "Would you like to recommend my approach to learning?",
   share: "Share my testimony",

@@ -53,6 +53,7 @@ export default {
   /*Testimonials*/
   titleTesti: "Témoignages sur Danielle Desteucq-Roettger",
   testimonials: "Témoignages",
+  totalOpinions: "avis total",
   opinion: "avis",
   leaveComment: "Vous souhaitez recommander mon approche de l’apprentissage ?",
   share: "Partager mon témoignage",
