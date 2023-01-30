@@ -109,7 +109,7 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-48 flex justify-end">{t.opinion}</div>
+                  <div className="ml-[190px] flex justify-end">{t.opinion}</div>
                 </div>
               </div>
             </div>
