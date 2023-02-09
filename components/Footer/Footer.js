@@ -19,11 +19,6 @@ const Footer = () => {
       <div className="w-full h-2 bg-dani-selected" />
       <div className=" bg-dani-green">
         <div className="max-w-[1240px] m-auto flex justify-center flex-col items-center p-4 text-white">
-          <div className="underline mb-3">
-            <h2>{t.schedules}</h2>
-          </div>
-          <p className="text-center">{t.schedulesP}</p>
-
           <div className="underline mt-3 mb-3">
             <h2>{t.contactDetails}</h2>
           </div>

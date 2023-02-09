@@ -24,7 +24,7 @@ export default function About() {
 
       <div className="lg:flex flex-row-reverse justify-around items-center">
         <div className="mt-8 flex flex-col items-center lg:self-end">
-          <div className="w-80 lg:w-[600px] lg:h-80 border-r-b-l rounded shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-justify p-4">
+          <div className="w-80 lg:w-[600px] lg:h-84 border-r-b-l rounded shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] text-justify p-4">
             <h1 className="p-4 text-center text-[1.7em] italic tracking-wide">
               {t.whoAmI}
             </h1>
@@ -69,6 +69,8 @@ export default function About() {
             <li>{t.formationList.li5}</li>
             <li>{t.formationList.li6}</li>
             <li>{t.formationList.li7}</li>
+            <li>{t.formationList.li8}</li>
+            <li>{t.formationList.li9}</li>
           </ul>
         </div>
       </div>
@@ -84,29 +86,12 @@ export default function About() {
       <div className="mt-3 flex flex-col items-center">
         <Gi3DStairs size={35} />
         <div className=" mt-3 w-80 lg:w-[800px] text-justify p-4 tracking-wider">
-          <ul className="list-disc">
-            <li>Diplômée de l’IFAG (Ecole de management - ICG Paris)</li>
-            <li>
-              Traductrice et interprète diplômée de la Chambre de Commerce et
-              d’Industrie de Wiesbaden, (IHK Wiesbaden), Allemagne
-            </li>
-            <li>
-              Diplômée de la Chambre franco-allemande de Commerce et d’Industrie
-              de Paris (Spécialité : allemand commercial), Paris, France
-            </li>
-            <li>Diplômée du Goethe Institut, Francfort, Allemagne</li>
-            <li>
-              Traductrice diplômée de l’AKAD (Hochschule für Berufstätige),
-              Stuttgart, Allemagne
-            </li>
-            <li>
-              Traductrice et Interprète diplômée d’Etat (Ministère de
-              l’Education de la Sarre), Sarrebruck, Allemagne
-            </li>
-            <li>
-              Correctrice et rédactrice, Centre d’écriture et de communication,
-              Paris
-            </li>
+          <ul className="h-72 flex flex-col justify-between items-center">
+            <li className="experienceLi">{t.exp1}</li>
+            <li className="experienceLi">{t.exp2}</li>
+            <li className="experienceLi">{t.exp3}</li>
+            <li className="experienceLi">{t.exp4}</li>
+            <li className="experienceLi">{t.exp5}</li>
           </ul>
         </div>
       </div>
