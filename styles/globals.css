@@ -10,7 +10,7 @@ html {
 /*===================== HEADER IMAGES FOR DIFFERENTS PAGES ======================= */
 
 .custom-img-home {
-  background-image: url("../public/images/img-home.jpg");
+  background-image: url("../public/images/img-home-2.jpg");
 }
 
 .img-header-about {
@@ -45,4 +45,11 @@ html {
 
 .img-addTestimonial {
   background-image: url("../public/images/commentaire.jpg");
+}
+
+/*======================= ABOUT PAGE =========================================*/
+
+.experienceLi {
+  list-style: none;
+  text-align: center;
 }

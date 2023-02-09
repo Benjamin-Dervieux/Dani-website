@@ -21,34 +21,43 @@ export default {
   /*Pages => */
   /*Home*/
   welcomeMessage: "Cours de français des affaires en ligne",
-  danielleProfession: "Danielle Desteucq-Roettger Traductrice - Interprètre",
+  danielleProfession: "Danielle Desteucq-Roettger Professeur certifié",
+  importantMessage:
+    "L’Organisation internationale de la francophonie (OIF) estime que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
 
   /*About*/
   whoAmI: "Qui suis-je ?",
   whoAmIP:
-    "Mon expérience est le fruit de nombreuses années de travail avec des élèves de tous horizons. Mes études et ma carrière de traductrice/interprète DE (allemand-français) m’ont amenée à rencontrer de nombreuses personnes regrettant de devoir passer par l’intermédiaire d’un interprète pour mener leurs affaires. C’est ainsi que j’ai commencé à m’intéresser à l’enseignement du français des affaires. C’est un métier passionnant car il permet d’aider des personnes à progresser dans leurs compétences et à accéder à de nouvelles opportunités professionnelles.",
+    "Mes études de management et ma longue carrière de traductrice-interprète diplômée d’état m’ont amenée à m’orienter vers la profession d’enseignante de français des affaires, activité que j’exerce en ligne, convaincue des multiples avantages, du confort et de l’efficacité des formations à distance. Désirant ajouter de la légitimité à mon activité, j’ai passé le diplôme officialisant la capacité à enseigner et travaille depuis plus de 10 ans comme professeure de français et professeure de français des affaires. Mon expérience est le fruit de nombreuses années de travail avec des élèves internationaux de tous horizons.",
   formation: "Formation",
   formationList: {
-    li1: "Diplômée de l’IFAG (Ecole de management - ICG Paris)",
-    li2: "Traductrice et interprète diplômée de la Chambre de Commerce et d’Industrie de Wiesbaden, (IHK Wiesbaden), Allemagne",
-    li3: "Diplômée de la Chambre franco-allemande de Commerce et d’Industrie de Paris (Spécialité : allemand commercial), Paris, France",
-    li4: "Diplômée du Goethe Institut, Francfort, Allemagne",
-    li5: "Traductrice diplômée de l’AKAD (Hochschule für Berufstätige), Stuttgart, Allemagne",
-    li6: "Traductrice et Interprète diplômée d’Etat (Ministère de l’Education de la Sarre), Sarrebruck, Allemagne",
-    li7: "Correctrice et rédactrice, Centre d’écriture et de communication, Paris",
+    li1: "Cambridge English Certificate C1",
+    li2: "Diplômée de l’Alliance Française Paris – DAE FLE",
+    li3: "Formation à la correction et à l’écriture - Centre d’Ecriture et de Communication (C .E.C) - Paris",
+    li4: "Diplôme d’état de traductrice et interprète - Ministère de l’éducation de la Sarre, Allemagne",
+    li5: "Diplôme de l’AKAD – Hochschule für Berufstätige – Stuttgart, Allemagne",
+    li6: "Diplôme du Goethe Institut (Grosses Sprachdiplom) - Francfort, Allemagne",
+    li7: "Diplôme de traductrice et interprète de la Chambre de Commerce et d’Industrie – Cologne, Allemagne",
+    li8: "Diplôme d’allemand économique et commercial – Chambre de commerce franco-allemande de commerce et d’industrie de Paris",
+    li9: "Diplômée de l’IFAG – Ecole supérieure de management – Lyon, France",
   },
-  course: "Parcours",
+  course: "Expérience professionnelle",
+  exp1: "2010 à aujourd’hui : Professeur de français et de français des affaires",
+  exp2: "1998 à 2010 : Traduction et interprétariat: Domaines de spécialisation : Marketing et Communication/Corporate Publishing",
+  exp3: "Crédit industriel et commercial- Chargée de la relation avec la maison mère à Paris, Francfort sur le Main, Allemagne",
+  exp4: "Bank of America – Officer / Administrative Services - Francfort sur la Main, Allemagne",
+  exp5: "Université populaire Main-Kinzig-Kreis – Professeure de Français",
 
   /*Information*/
   efficiencyAndFlexibility: "Efficacité et flexibilité",
   efficiencyAndFlexibilityP:
-    "La formation se fait en ligne, ce qui permet une flexibilité maximum. Où que vous soyez, un ordinateur et une connexion internet suffisent à assister au cours. Quant aux horaires des cours, vous pourrez les gérer d’une semaine sur une autre, selon vos disponibilités.",
+    "La formation se fait en ligne, ce qui permet une flexibilité maximum. Où que l’on soit, un ordinateur, un téléphone mobile et une connexion internet suffisent à assister au cours. A la fin de chaque cours, je fais parvenir à mes étudiants un document résumant l’ensemble du cours. Quant aux horaires des cours, vous pourrez les gérer d’une semaine sur une autre, selon vos disponibilités.",
   myClients: "Ma clientèle",
   myClientP:
-    "Cette formation s’adresse aux personnes ayant appris le français et souhaitant améliorer leur niveau dans un objectif professionnel. L’enseignement leur permet d’accéder à une meilleure maîtrise de la langue et les aide à prendre la parole en français. Il devient ainsi possible de communiquer avec des collègues, clients ou prospects francophones mais aussi de réaliser des présentations ou encore mener des négociations en français.",
+    "La formation s’adresse bien sûr à toutes les personnes désirant apprendre ou perfectionner le français, qu’ils soient débutants, intermédiaires ou plus. Mais elle s’adresse aussi aux personnes dont la vie professionnelle rend la maîtrise du français indispensable. Cette compétence rendra possible une meilleure communication avec leurs clients, prospects ou collègues, la prise de parole, la réalisation de présentations ou la conduite de négociations en français. Elle prépare également à différents examens et certifications de français. L’Organisation internationale de la francophonie (OIF) estime même que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
   myStudents: "Mes élèves",
   myStudentsP:
-    "Mes « élèves » sont des personnes de nationalités très diverses et ayant appris le français. Leur niveau est au minimum A2. La langue support des cours peut être l’allemand ou l’anglais. Chaque cours sait s’adapter aux besoins de l’élève (domaine d’activité par exemple). Nous travaillons avec des supports rédigés dans un français moderne, actuel, efficace. Il est également possible de travailler avec les supports suggérés par les élèves. Bien sûr, je garantis une confidentialité absolue. Selon les besoins et les attentes de l’élève, la formation propose un mix de conversation, compréhension et expression orales, lecture de textes actuels ou encore traduction.",
+    "Mes « élèves » sont des personnes de nationalités très diverses. La langue support des cours peut être l’allemand ou l’anglais. Chaque cours sait s’adapter aux besoins de l’apprenant (domaine d’activité, par exemple). Nous travaillons avec des supports conçus dans un français moderne, actuel et efficace. Il est également possible de travailler avec des supports suggérés par les apprenants. Je garantis bien sûr une confidentialité absolue. Selon les besoins et les attentes des élèves, la formation met l’accent sur la conversation, la compréhension orale et écrite, l’expression orale et écrite, la lecture de textes actuels ou encore la traduction.",
 
   /*Testimonials*/
   titleTesti: "Témoignages sur Danielle Desteucq-Roettger",
