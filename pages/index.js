@@ -29,7 +29,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="mt-7 lg:mt-[160px] ">
+        <div className="mt-7 lg:mt-[80px] ">
           <Button />
         </div>
       </div>
