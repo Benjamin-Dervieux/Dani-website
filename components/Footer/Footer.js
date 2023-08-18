@@ -1,8 +1,8 @@
+import React from "react";
 import Link from "next/link";
 import { BsGeoFill, BsPhoneFill, BsLinkedin } from "react-icons/bs";
 import { ImXing } from "react-icons/im";
 import { ImMail3 } from "react-icons/im";
-
 import { useRouter } from "next/router";
 
 import en from "../../public/locales/en/en";
@@ -53,12 +53,14 @@ const Footer = () => {
           </div>
 
           <div className=" mt-12 flex justify-around items-center">
-            <p>-- Made by BD --</p>
+            <p>-- Made by Benjamin Dervieux --</p>
           </div>
         </div>
       </div>
     </div>
   );
 };
+
+Footer.displayName = "Footer";
 
 export default Footer;

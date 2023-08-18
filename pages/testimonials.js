@@ -16,6 +16,10 @@ const Testimonials = () => {
   const { locale } = router;
   const t = locale === "en" ? en : locale === "de" ? de : fr;
   const { testiList } = useContext(TestimonialContext);
+
+  const filterTestimonials = (rating) => {
+    return testiList.filter((testimonial) => testimonial.rating === rating);
+  };
   const stars5 = Array(5).fill(0);
   const stars4 = Array(4).fill(0);
   const stars3 = Array(3).fill(0);
@@ -57,7 +61,13 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-16 flex justify-end">{t.opinion}</div>
+                  <div className="ml-14 flex justify-end">
+                    <div className="flex items-center">
+                      <span>{filterTestimonials(5).length}</span>
+                      <span className="mx-1">-</span>
+                      <span>{t.opinion}</span>
+                    </div>
+                  </div>
                 </div>
                 <div className="flex justify-start">
                   {stars4.map((_, index) => {
@@ -70,7 +80,13 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-24 flex justify-end">{t.opinion}</div>
+                  <div className="ml-20 flex justify-end">
+                    <div className="flex items-center">
+                      <span>{filterTestimonials(4).length}</span>
+                      <span className="mx-1">-</span>
+                      <span>{t.opinion}</span>
+                    </div>
+                  </div>
                 </div>
                 <div className="flex">
                   {stars3.map((_, index) => {
@@ -83,7 +99,13 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-32 flex justify-end">{t.opinion}</div>
+                  <div className="ml-28 flex justify-end">
+                    <div className="flex items-center">
+                      <span>{filterTestimonials(3).length}</span>
+                      <span className="mx-1">-</span>
+                      <span>{t.opinion}</span>
+                    </div>
+                  </div>
                 </div>
                 <div className="flex">
                   {stars2.map((_, index) => {
@@ -96,7 +118,13 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-40 flex justify-end">{t.opinion}</div>
+                  <div className="ml-36 flex justify-end">
+                    <div className="flex items-center">
+                      <span>{filterTestimonials(2).length}</span>
+                      <span className="mx-1">-</span>
+                      <span>{t.opinion}</span>
+                    </div>
+                  </div>
                 </div>
                 <div className="flex">
                   {stars1.map((_, index) => {
@@ -109,7 +137,13 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-[190px] flex justify-end">{t.opinion}</div>
+                  <div className="ml-[168px] flex justify-end">
+                    <div className="flex items-center">
+                      <span>{filterTestimonials(1).length}</span>
+                      <span className="mx-1">-</span>
+                      <span>{t.opinion}</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

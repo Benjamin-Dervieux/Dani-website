@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -27,14 +27,16 @@ const Header = () => {
     <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-dani-green">
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <Image
-            className="cursor-pointer"
-            priority
-            width={70}
-            height={80}
-            src="/images/logo-dani.png"
-            alt="Danielle Desteucq-Roettgerlogo"
-          />
+          <a>
+            <Image
+              className="cursor-pointer"
+              priority
+              width={70}
+              height={80}
+              src="/images/logo-dani.png"
+              alt="Danielle Desteucq-Roettgerlogo"
+            />
+          </a>
         </Link>
         <nav>
           <ul className="hidden sm:flex">
@@ -127,5 +129,7 @@ const Header = () => {
     </div>
   );
 };
+
+Header.displayName = "Header";
 
 export default Header;

@@ -61,10 +61,7 @@ const NewTestimonial = () => {
           {t.titleNexTesti}
         </h3>
 
-        <RatingStars
-          value={userRating}
-          onChange={(e) => setUserRating(e.target.value)}
-        />
+        <RatingStars value={userRating} onChange={setUserRating} />
       </div>
 
       <div className="lg:flex flex-row justify-center">

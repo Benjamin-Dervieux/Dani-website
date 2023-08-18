@@ -6,14 +6,15 @@ const colors = {
   yellow: "#e3c796",
 };
 
-const RatingStars = () => {
-  const [currentValue, setCurrentValue] = useState(4);
+const RatingStars = ({ value, onChange }) => {
+  const [currentValue, setCurrentValue] = useState(value);
   const [hoverValue, setHoverValue] = useState(undefined);
 
   const stars = Array(5).fill(0);
 
   const handleClick = (value) => {
     setCurrentValue(value);
+    onChange(value);
   };
 
   const handleMouseOver = (newHoverValue) => {
@@ -25,27 +26,26 @@ const RatingStars = () => {
   };
 
   return (
-    <>
-      <div className="flex justify-center ">
-        {stars.map((_, index) => {
-          return (
-            <FaStar
-              key={index}
-              className="w-10 cursor-pointer"
-              size={24}
-              onClick={() => handleClick(index + 1)}
-              onMouseOver={() => handleMouseOver(index + 1)}
-              onMouseLeave={handleMouseLeave}
-              color={
-                (hoverValue || currentValue) > index
-                  ? colors.yellow
-                  : colors.black
-              }
-            />
-          );
-        })}
-      </div>
-    </>
+    <div className="flex justify-center">
+      {stars.map((_, index) => {
+        const starValue = index + 1;
+        return (
+          <FaStar
+            key={index}
+            className="w-10 cursor-pointer"
+            size={24}
+            onClick={() => handleClick(starValue)}
+            onMouseOver={() => handleMouseOver(starValue)}
+            onMouseLeave={handleMouseLeave}
+            color={
+              (hoverValue || currentValue) >= starValue
+                ? colors.yellow
+                : colors.black
+            }
+          />
+        );
+      })}
+    </div>
   );
 };
 
