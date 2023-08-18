@@ -114,7 +114,7 @@ const Contact = () => {
 
         <div>
           <div className="flex justify-center">
-            <div className="mt-8 w-80 h-72 border-2 border-dani-green rounded-xl">
+            <div className="mt-8 w-80 h-72 border-2 border-dani-green rounded-xl shadow-[rgba(0,_0,_0,_0.30)_0px_10px_8px]">
               <div className="w-[316px] h-20 bg-dani-green flex rounded-t-lg flex-col justify-center items-center">
                 <div className="text-white text-lg">
                   <div className="flex justify-center">
@@ -147,7 +147,7 @@ const Contact = () => {
           </div>
 
           <div className="mt-8 mb-8 h-[500px] flex flex-col justify-between items-center">
-            <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around">
+            <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around shadow-[rgba(0,_0,_0,_0.30)_0px_10px_8px]">
               <div>
                 <div className="flex justify-center items-center text-white">
                   <MdEmail size={35} />
@@ -162,7 +162,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around">
+            <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around shadow-[rgba(0,_0,_0,_0.30)_0px_10px_8px]">
               <div>
                 <div className="flex justify-center items-center text-white">
                   <AiOutlineLinkedin size={35} />
@@ -179,7 +179,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around">
+            <div className="w-80 h-36 bg-dani-green rounded-md flex flex-col justify-around shadow-[rgba(0,_0,_0,_0.30)_0px_10px_8px]">
               <div>
                 <div className="flex justify-center items-center text-white">
                   <FaXingSquare size={35} />
