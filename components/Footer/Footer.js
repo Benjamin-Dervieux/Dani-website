@@ -32,19 +32,19 @@ const Footer = () => {
           </div>
 
           <div className=" mt-8 w-40 flex justify-between">
-            <div>
+            <div className="cursor-pointer">
               <Link href="/contact">
                 <ImMail3 size={35} />
               </Link>
             </div>
-            <div>
+            <div className="cursor-pointer">
               <Link href="https://www.linkedin.com/in/danielle-desteucq-r%C3%B6ttger-219b6328/">
                 <BsLinkedin size={35} />
               </Link>
             </div>
-            <div>
+            <div className="cursor-pointer">
               <Link
-                className="text-lg text-white"
+                className="text-lg text-white "
                 href="https://www.xing.com/profile/Danielle_DesteucqRoettger"
               >
                 <ImXing size={35} />
@@ -53,7 +53,11 @@ const Footer = () => {
           </div>
 
           <div className=" mt-12 flex justify-around items-center">
-            <p>-- Made by Benjamin Dervieux --</p>
+            <div className="cursor-pointer">
+              <Link href="https://portfolio-benjamin-dervieux.vercel.app/">
+                <p>-- Made by Benjamin Dervieux --</p>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

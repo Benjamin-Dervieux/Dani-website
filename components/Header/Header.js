@@ -24,7 +24,7 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-dani-green">
+    <div className="fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-dani-green shadow-[rgba(0,_0,_0,_0.50)_0px_10px_8px]">
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <a>
