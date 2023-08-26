@@ -29,7 +29,7 @@ const seed = async () => {
         rating: 5,
         title: "meine berufliche Erfahrung mit Danielle",
         content:
-          "Frau Roettger versteht es, das Erlernen und die Anwendung der französischen Sprache angepasst an die Intereseen des Schülers zu vermitteln. Der richtige Mix aus Grammatik, Vokabeln, Sprach- und Verständnisübungen machen den Unterricht nie langweilig und auch nicht einseitig. Sie passt sich dem Tempo des Schülers an und führt gezielt durch Auswahl der richtigen Themen orientiert am Interesse des Schülers durch die Unterrichtsstunden. Ich konnte hierdurch nachhaltig und effizient meine Sprachkenntniss festigen, erweitern und in meinem Beruf umsetzen",
+          "Frau Roettger versteht es, das Erlernen und die Anwendung der französischen Sprache angepasst an die Interessen des Schülers zu vermitteln. Der richtige Mix aus Grammatik, Vokabeln, Sprach- und Verständnisübungen machen den Unterricht nie langweilig und auch nicht einseitig. Sie passt sich dem Tempo des Schülers an und führt gezielt durch Auswahl der richtigen Themen, orientiert am Interesse des Schülers, durch die Unterrichtsstunden. Ich konnte hierdurch nachhaltig und effizient meine Sprachkenntniss festigen, erweitern und in meinem Beruf umsetzen",
         author: "A.S. – Munich, Allemagne",
       },
     ],

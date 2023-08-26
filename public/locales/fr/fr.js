@@ -20,15 +20,15 @@ export default {
 
   /*Pages => */
   /*Home*/
-  welcomeMessage: "Cours de français des affaires en ligne",
+  welcomeMessage: "Cours de français et d’allemand des affaires en ligne",
   danielleProfession: "Danielle Desteucq-Roettger Professeur certifié",
   importantMessage:
-    "L’Organisation internationale de la francophonie (OIF) estime que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
+    "La maîtrise de l’allemand mettra à votre portée de très intéressantes opportunités professionnelles car les entreprises ayant une présence internationale sont particulièrement intéressées par des collaborateurs sachant manier cette langue.  Saviez-vous d’ailleurs que l’allemand était la deuxième langue la plus présente dans le domaine des sciences et de la recherche et du développement ? L’Organisation internationale de la francophonie (OIF) estime que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
 
   /*About*/
   whoAmI: "Qui suis-je ?",
   whoAmIP:
-    "Mes études de management et ma longue carrière de traductrice-interprète diplômée d’état m’ont amenée à m’orienter vers la profession d’enseignante de français des affaires, activité que j’exerce en ligne, convaincue des multiples avantages, du confort et de l’efficacité des formations à distance. Désirant ajouter de la légitimité à mon activité, j’ai passé le diplôme officialisant la capacité à enseigner et travaille depuis plus de 10 ans comme professeure de français et professeure de français des affaires. Mon expérience est le fruit de nombreuses années de travail avec des élèves internationaux de tous horizons.",
+    "Mes études de management et ma longue carrière de traductrice-interprète (français/allemand) diplômée d’état m’ont amenée à m’orienter vers l’enseignement du français et de l’allemand des affaires. Convaincue des multiples avantages, du confort et de l’efficacité des formations à distance, j’exerce cette activité en ligne depuis plus de 10 ans.  Professeure certifiée, j’ai enseigné à de très nombreux élèves internationaux ce qui m’a permis d’acquérir une grande expérience dans ce domaine.",
   formation: "Formation",
   formationList: {
     li1: "Cambridge English Certificate C1",
@@ -42,8 +42,8 @@ export default {
     li9: "Diplômée de l’IFAG – Ecole supérieure de management – Lyon, France",
   },
   course: "Expérience professionnelle",
-  exp1: "2010 à aujourd’hui : Professeur de français et de français des affaires",
-  exp2: "1998 à 2010 : Traduction et interprétariat: Domaines de spécialisation : Marketing et Communication/Corporate Publishing",
+  exp1: "2010 à aujourd’hui: Professeur de français et de français des affaires",
+  exp2: "1998 à 2010: Traduction et interprétariat: Domaines de spécialisation: Marketing et Communication/Corporate Publishing",
   exp3: "Crédit industriel et commercial- Chargée de la relation avec la maison mère à Paris, Francfort sur le Main, Allemagne",
   exp4: "Bank of America – Officer / Administrative Services - Francfort sur la Main, Allemagne",
   exp5: "Université populaire Main-Kinzig-Kreis – Professeure de Français",
@@ -54,18 +54,18 @@ export default {
     "La formation se fait en ligne, ce qui permet une flexibilité maximum. Où que l’on soit, un ordinateur, un téléphone mobile et une connexion internet suffisent à assister au cours. A la fin de chaque cours, je fais parvenir à mes étudiants un document résumant l’ensemble du cours. Quant aux horaires des cours, vous pourrez les gérer d’une semaine sur une autre, selon vos disponibilités.",
   myClients: "Ma clientèle",
   myClientP:
-    "La formation s’adresse bien sûr à toutes les personnes désirant apprendre ou perfectionner le français, qu’ils soient débutants, intermédiaires ou plus. Mais elle s’adresse aussi aux personnes dont la vie professionnelle rend la maîtrise du français indispensable. Cette compétence rendra possible une meilleure communication avec leurs clients, prospects ou collègues, la prise de parole, la réalisation de présentations ou la conduite de négociations en français. Elle prépare également à différents examens et certifications de français. L’Organisation internationale de la francophonie (OIF) estime même que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
-  myStudents: "Mes élèves",
+    "La formation s’adresse bien sûr à toutes les personnes désirant apprendre ou perfectionner leurs connaissances en français ou en allemand des affaires, qu’ils soient débutants, intermédiaires ou plus. Mais elle s’adresse aussi aux personnes dont la vie professionnelle rend la maîtrise du français indispensable. Cette compétence rendra possible une meilleure communication avec leurs clients, prospects ou collègues, la prise de parole, la réalisation de présentations ou la conduite de négociations. Elle prépare également à différents examens et certifications.",
+  myStudents: "Mes étudiants",
   myStudentsP:
-    "Mes « élèves » sont des personnes de nationalités très diverses. La langue support des cours peut être l’allemand ou l’anglais. Chaque cours sait s’adapter aux besoins de l’apprenant (domaine d’activité, par exemple). Nous travaillons avec des supports conçus dans un français moderne, actuel et efficace. Il est également possible de travailler avec des supports suggérés par les apprenants. Je garantis bien sûr une confidentialité absolue. Selon les besoins et les attentes des élèves, la formation met l’accent sur la conversation, la compréhension orale et écrite, l’expression orale et écrite, la lecture de textes actuels ou encore la traduction.",
+    "Mes étudiants sont des personnes de nationalités très diverses. La langue support des cours peut être l’allemand ou l’anglais. Chaque cours sait s’adapter aux besoins de l’apprenant (domaine d’activité, par exemple). Nous travaillons avec des supports conçus dans un français moderne, actuel et efficace. Il est également possible de travailler avec des supports suggérés par les apprenants. Je garantis bien sûr une confidentialité absolue. Selon les besoins et les attentes des élèves, la formation met l’accent sur la conversation, la compréhension orale et écrite, l’expression orale et écrite, la lecture de textes actuels ou encore la traduction.",
 
   /*Testimonials*/
   titleTesti: "Témoignages sur Danielle Desteucq-Roettger",
   testimonials: "Témoignages",
   totalOpinions: "avis total",
   opinion: "opinions",
-  leaveComment: "Vous souhaitez recommander mon approche de l’apprentissage ?",
-  share: "Partager mon témoignage",
+  leaveComment: "Vous souhaitez partager votre expérience d’apprentissage ?",
+  share: "Poster un commentaire",
 
   /*New testimonials*/
   dropComment: "Laisser un commentaire",
@@ -76,7 +76,7 @@ export default {
   btn: "Envoyer",
 
   /*Contact*/
-  titleContact: "Prendre rendez-vous avec Danielle Desteucq-Roettger",
+  titleContact: "Contactez-moi",
   lastname: "Nom",
   firstname: "Prénom",
   email: "E-mail",

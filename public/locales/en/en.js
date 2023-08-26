@@ -20,15 +20,15 @@ export default {
 
   /*Pages => */
   /*Home*/
-  welcomeMessage: "Improve your French business language",
+  welcomeMessage: "Business French and Business German online courses",
   danielleProfession: "Danielle Desteucq-Roettger certified teacher",
   importantMessage:
-    "The International Organization of the Francophonie (OIF) estimates that our language could be the most spoken in the world by 2050, thanks to the growing demographics of Africa, where 59% of daily French speakers are located.",
+    "A good command of German will open up some very interesting career opportunities for you, as companies with an international presence are particularly interested in employees who know how to handle this language.  Did you know that German is the second most widely spoken language in science and R&D? The International Organization of the Francophonie (OIF) estimates that our language could be the most spoken in the world by 2050, thanks to the growing demographics of Africa, where 59% of daily French speakers are located.",
 
   /*About*/
   whoAmI: "About me ?",
   whoAmIP:
-    "My studies in Management and my long career as a certified translator-interpreter have led me to become a Business French teacher, an activity that I do online, convinced of the multiple advantages, the comfort and the efficiency of distance learning. Wishing to add legitimacy to my activity, I got the diploma formalizing the ability to teach and have been working for more than 10 years as a French teacher and a Business French teacher. My experience is the result of many years of working with international students from all walks of life.",
+    "My studies in Management and my long career as a state-qualified translator-interpreter (French/German) led me to the teaching of French and German for business. Convinced of the many advantages, convenience and effectiveness of distance learning, I've been teaching online for over 10 years.  As a certified teacher, I have taught a large number of international students, which has given me a wealth of experience in this field.",
   formation: "Education",
   formationList: {
     li1: "Cambridge English Certificate C1",
@@ -36,7 +36,7 @@ export default {
     li3: "Training in proofreading and editing – Centre d’Ecriture et de Communication (C.E.C) - Paris",
     li4: "State certificate in translation and interpretation – Ministry of Education – Saarbrucken, Germany",
     li5: "Certification in translation (German/French) – AKAD – Stuttgart, Germany",
-    li6: "French/German certificate in translation (economics &amp; business) – French/German Chamber of Commerce and Industry of Paris – Cologne, Germany",
+    li6: "French/German certificate in translation (economics and business) – French/German Chamber of Commerce and Industry of Paris – Cologne, Germany",
     li7: "Certification in translation and interpretation – Chamber of Commerce and Industry – Wiesbaden, Germany",
     li8: "Highest Goethe Institute Certificate in written and spoken German – Goethe Institut – Frankfurt, Germany",
     li9: "Certificate in General Management – IFAG – Ecole supérieure de management – Lyon, France",
@@ -54,18 +54,18 @@ export default {
     "The lessons are online, which allows maximum flexibility. Wherever you are, a computer, a cell phone and an internet connection are enough to access the course. At the end of each course, the student are sent a document summarizing the lesson in the event they have not been able to make notes. As for the class schedules, you can manage them from one week to the next, according to your availability.",
   myClients: "Who are my clients?",
   myClientP:
-    "The course is of course intended for all those who wish to learn or improve their French, whether they are beginners, intermediate or more advanced. But it is also intended for people whose professional life makes the mastery of French essential. This skill will make it possible to communicate better with their clients, prospects or colleagues, to speak, to make presentations or to conduct negotiations in French. It also prepares students for various French exams and certifications.",
+    "The course is of course aimed at anyone wishing to learn or perfect their knowledge of French or Business German, whether they are beginners, intermediate or more advanced. But it is also aimed at people whose professional lives make a command of French essential. This skill will enable them to communicate more effectively with customers, prospects or colleagues, give speeches, make presentations or conduct negotiations. It also prepares students for various exams and certifications.",
   myStudents: "My students",
   myStudentsP:
-    "My &quot;students&quot; are people of many different nationalities. The support language can be German or English. Each course is adapted to the needs of the Learner (e.g. field of activity). We work with materials written in modern, up-to-date and effective French. It is also possible to work with materials put forward by the Learners. Of course, I guarantee absolute confidentiality. Depending on the needs and expectations of the students, the training will focus on conversation, oral and written comprehension, oral and written expression, reading of current texts or translation.",
+    "My students come from a wide range of nationalities. The course language can be English. Each course is adapted to the learner's needs (e.g. field of activity). We work with modern, up-to-date and effective materials. It's also possible to work with materials suggested by learners. Of course, I guarantee absolute confidentiality. Depending on the needs and expectations of the students, the training focuses on conversation, oral and written comprehension, oral and written expression and translation.",
 
   /*Testimonials*/
   titleTesti: "Testimonials about Danielle Desteucq-Roettger",
   testimonials: "Testimonials",
   totalOpinions: "total opinions",
   opinion: "opinions",
-  leaveComment: "Would you like to recommend my approach to learning?",
-  share: "Share my testimony",
+  leaveComment: "You want to share your learning experience?",
+  share: "Post a review",
 
   /*New testimonials*/
   dropComment: "Leave a comment",
@@ -76,7 +76,7 @@ export default {
   btn: "Send",
 
   /*Contact*/
-  titleContact: "Make an appointment with Danielle Desteucq-Roettger",
+  titleContact: "Contact me",
   lastname: "Lastname",
   firstname: "Firstname",
   email: "E-mail",
