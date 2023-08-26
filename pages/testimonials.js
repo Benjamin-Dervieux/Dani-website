@@ -61,11 +61,10 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-14 flex justify-end">
+                  <div className="flex justify-start">
                     <div className="flex items-center">
                       <span>{filterTestimonials(5).length}</span>
-                      <span className="mx-1">-</span>
-                      <span>{t.opinion}</span>
+                      <span className="mx-1"></span>
                     </div>
                   </div>
                 </div>
@@ -80,11 +79,10 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-20 flex justify-end">
+                  <div className="ml-14 flex justify-start">
                     <div className="flex items-center">
                       <span>{filterTestimonials(4).length}</span>
-                      <span className="mx-1">-</span>
-                      <span>{t.opinion}</span>
+                      <span className="mx-1"></span>
                     </div>
                   </div>
                 </div>
@@ -99,11 +97,10 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-28 flex justify-end">
+                  <div className="ml-28 flex justify-start">
                     <div className="flex items-center">
                       <span>{filterTestimonials(3).length}</span>
-                      <span className="mx-1">-</span>
-                      <span>{t.opinion}</span>
+                      <span className="mx-1"></span>
                     </div>
                   </div>
                 </div>
@@ -118,11 +115,10 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-36 flex justify-end">
+                  <div className="ml-[164px] flex justify-end">
                     <div className="flex items-center">
                       <span>{filterTestimonials(2).length}</span>
-                      <span className="mx-1">-</span>
-                      <span>{t.opinion}</span>
+                      <span className="mx-1"></span>
                     </div>
                   </div>
                 </div>
@@ -137,11 +133,10 @@ const Testimonials = () => {
                       />
                     );
                   })}
-                  <div className="ml-[168px] flex justify-end">
+                  <div className="ml-[217px] flex justify-end">
                     <div className="flex items-center">
                       <span>{filterTestimonials(1).length}</span>
-                      <span className="mx-1">-</span>
-                      <span>{t.opinion}</span>
+                      <span className="mx-1"></span>
                     </div>
                   </div>
                 </div>

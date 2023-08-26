@@ -55,15 +55,15 @@ export default {
     "Der Unterricht findet online statt, was maximale Flexibilität ermöglicht. Egal, wo man sich befindet, ein Computer, ein Mobiltelefon und eine Internetverbindung reichen aus, um am Unterricht teilzunehmen. Am Ende jeder Unterrichtsstunde schicke ich meinen Studenten ein Dokument, das den gesamten Kurs zusammenfasst. Was die Unterrichtszeiten betrifft, so können Sie diese von einer Woche zur anderen je nach Ihrer Verfügbarkeit festlegen.",
   myClients: "Wer sind meine Kunden?",
   myClientP:
-    "Die Ausbildung richtet sich natürlich an alle Personen, die Französisch oder Wirtschaftsdeutsch lernen oder ihre Kenntnisse verbessern möchten, egal ob sie Anfänger, Fortgeschrittene oder mehr sind. Sie richtet sich aber auch an Personen, deren Berufsleben die Beherrschung der französischen Sprache unabdingbar macht. Diese Kompetenz wird es ihnen ermöglichen, besser mit ihren Kunden, Interessenten oder Kollegen zu kommunizieren, das Wort zu ergreifen, Präsentationen zu erstellen oder Verhandlungen zu führen. Außerdem bereitet sie auf verschiedene Prüfungen und Zertifizierungen vor.",
+    "Die Ausbildung richtet sich natürlich an alle Personen, die Französisch oder Deutsch lernen oder ihre Kenntnisse verbessern möchten, egal ob sie Anfänger, Fortgeschrittene oder mehr sind. Sie richtet sich aber auch an Personen, deren Berufsleben die Beherrschung der französischen oder deutschen Sprache unabdingbar macht. Diese Kompetenz wird es ihnen ermöglichen, besser mit ihren Kunden, Interessenten oder Kollegen zu kommunizieren, das Wort zu ergreifen, Präsentationen zu erstellen oder Verhandlungen zu führen. Außerdem bereitet sie auf verschiedene Prüfungen und Zertifizierungen vor.",
   myStudents: "Methode und Lerninhalte : aktuell und praxisnah",
   myStudentsP:
     "Meine Studenten sind Menschen mit sehr unterschiedlichen Nationalitäten. Die Trägersprache der Kurse kann Englisch sein. Jeder Kurs kann sich an die Bedürfnisse des Lernenden anpassen (z. B. an den Tätigkeitsbereich). Wir arbeiten mit modernen, aktuellen und effektiven Materialien. Es ist auch möglich, mit Materialien zu arbeiten, die von den Lernenden vorgeschlagen werden. Selbstverständlich garantiere ich absolute Vertraulichkeit. Je nach den Bedürfnissen und Erwartungen der Lernenden liegt der Schwerpunkt des Unterrichts auf Konversation, Hör- und Leseverständnis, Sprechen und Schreiben oder auch auf Übersetzungen.",
 
   /*Testimonials*/
-  titleTesti: "Erfahrungsberichte über Danielle Desteucq-Roettger",
+  titleTesti: "Testimonials über Danielle Desteucq-Roettger",
   testimonials: "Empfehlungen",
-  totalOpinions: "Gesamtmeinung",
+  totalOpinions: "Bewertungen",
   opinion: "Meinung",
   leaveComment: "Sie möchten Ihre Lernerfahrung teilen?",
   share: "Einen Kommentar posten",

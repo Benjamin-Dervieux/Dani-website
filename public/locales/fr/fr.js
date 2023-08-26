@@ -54,7 +54,7 @@ export default {
     "La formation se fait en ligne, ce qui permet une flexibilité maximum. Où que l’on soit, un ordinateur, un téléphone mobile et une connexion internet suffisent à assister au cours. A la fin de chaque cours, je fais parvenir à mes étudiants un document résumant l’ensemble du cours. Quant aux horaires des cours, vous pourrez les gérer d’une semaine sur une autre, selon vos disponibilités.",
   myClients: "Ma clientèle",
   myClientP:
-    "La formation s’adresse bien sûr à toutes les personnes désirant apprendre ou perfectionner leurs connaissances en français ou en allemand des affaires, qu’ils soient débutants, intermédiaires ou plus. Mais elle s’adresse aussi aux personnes dont la vie professionnelle rend la maîtrise du français indispensable. Cette compétence rendra possible une meilleure communication avec leurs clients, prospects ou collègues, la prise de parole, la réalisation de présentations ou la conduite de négociations. Elle prépare également à différents examens et certifications.",
+    "La formation s’adresse bien sûr à toutes les personnes désirant apprendre ou perfectionner leurs connaissances en français ou en allemand, qu’ils soient débutants, intermédiaires ou plus. Mais elle s’adresse aussi aux personnes dont la vie professionnelle rend la maîtrise du français ou de l'allemand indispensable. Cette compétence rendra possible une meilleure communication avec leurs clients, prospects ou collègues, la prise de parole, la réalisation de présentations ou la conduite de négociations. Elle prépare également à différents examens et certifications.",
   myStudents: "Mes étudiants",
   myStudentsP:
     "Mes étudiants sont des personnes de nationalités très diverses. La langue support des cours peut être l’allemand ou l’anglais. Chaque cours sait s’adapter aux besoins de l’apprenant (domaine d’activité, par exemple). Nous travaillons avec des supports conçus dans un français moderne, actuel et efficace. Il est également possible de travailler avec des supports suggérés par les apprenants. Je garantis bien sûr une confidentialité absolue. Selon les besoins et les attentes des élèves, la formation met l’accent sur la conversation, la compréhension orale et écrite, l’expression orale et écrite, la lecture de textes actuels ou encore la traduction.",
@@ -62,7 +62,7 @@ export default {
   /*Testimonials*/
   titleTesti: "Témoignages sur Danielle Desteucq-Roettger",
   testimonials: "Témoignages",
-  totalOpinions: "avis total",
+  totalOpinions: "avis ",
   opinion: "opinions",
   leaveComment: "Vous souhaitez partager votre expérience d’apprentissage ?",
   share: "Poster un commentaire",

@@ -54,7 +54,7 @@ export default {
     "The lessons are online, which allows maximum flexibility. Wherever you are, a computer, a cell phone and an internet connection are enough to access the course. At the end of each course, the student are sent a document summarizing the lesson in the event they have not been able to make notes. As for the class schedules, you can manage them from one week to the next, according to your availability.",
   myClients: "Who are my clients?",
   myClientP:
-    "The course is of course aimed at anyone wishing to learn or perfect their knowledge of French or Business German, whether they are beginners, intermediate or more advanced. But it is also aimed at people whose professional lives make a command of French essential. This skill will enable them to communicate more effectively with customers, prospects or colleagues, give speeches, make presentations or conduct negotiations. It also prepares students for various exams and certifications.",
+    "The course is of course aimed at anyone wishing to learn or perfect their knowledge of French or German, whether they are beginners, intermediate or more advanced. But it is also aimed at people whose professional lives make a command of French or German essential. This skill will enable them to communicate more effectively with customers, prospects or colleagues, give speeches, make presentations or conduct negotiations. It also prepares students for various exams and certifications.",
   myStudents: "My students",
   myStudentsP:
     "My students come from a wide range of nationalities. The course language can be English. Each course is adapted to the learner's needs (e.g. field of activity). We work with modern, up-to-date and effective materials. It's also possible to work with materials suggested by learners. Of course, I guarantee absolute confidentiality. Depending on the needs and expectations of the students, the training focuses on conversation, oral and written comprehension, oral and written expression and translation.",
@@ -62,7 +62,7 @@ export default {
   /*Testimonials*/
   titleTesti: "Testimonials about Danielle Desteucq-Roettger",
   testimonials: "Testimonials",
-  totalOpinions: "total opinions",
+  totalOpinions: "reviews",
   opinion: "opinions",
   leaveComment: "You want to share your learning experience?",
   share: "Post a review",
