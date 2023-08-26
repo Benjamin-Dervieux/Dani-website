@@ -23,7 +23,9 @@ export default {
   welcomeMessage: "Cours de français et d’allemand des affaires en ligne",
   danielleProfession: "Danielle Desteucq-Roettger Professeur certifié",
   importantMessage:
-    "La maîtrise de l’allemand mettra à votre portée de très intéressantes opportunités professionnelles car les entreprises ayant une présence internationale sont particulièrement intéressées par des collaborateurs sachant manier cette langue.  Saviez-vous d’ailleurs que l’allemand était la deuxième langue la plus présente dans le domaine des sciences et de la recherche et du développement ? L’Organisation internationale de la francophonie (OIF) estime que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
+    " L’Organisation internationale de la francophonie (OIF) estime que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
+  importantMessageBis:
+    "La maîtrise de l’allemand mettra à votre portée de très intéressantes opportunités professionnelles car les entreprises ayant une présence internationale sont particulièrement intéressées par des collaborateurs sachant manier cette langue. Saviez-vous d’ailleurs que l’allemand était la deuxième langue la plus présente dans le domaine des sciences et de la recherche et du développement ?",
 
   /*About*/
   whoAmI: "Qui suis-je ?",
@@ -33,7 +35,7 @@ export default {
   formationList: {
     li1: "Cambridge English Certificate C1",
     li2: "Diplômée de l’Alliance Française Paris – DAE FLE",
-    li3: "Formation à la correction et à l’écriture - Centre d’Ecriture et de Communication (C .E.C) - Paris",
+    li3: "Formation à la correction et à l’écriture - Centre d’Ecriture et de Communication (C.E.C) - Paris",
     li4: "Diplôme d’état de traductrice et interprète - Ministère de l’éducation de la Sarre, Allemagne",
     li5: "Diplôme de l’AKAD – Hochschule für Berufstätige – Stuttgart, Allemagne",
     li6: "Diplôme du Goethe Institut (Grosses Sprachdiplom) - Francfort, Allemagne",

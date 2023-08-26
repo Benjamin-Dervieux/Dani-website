@@ -23,7 +23,9 @@ export default {
   welcomeMessage: "Business French and Business German online courses",
   danielleProfession: "Danielle Desteucq-Roettger certified teacher",
   importantMessage:
-    "A good command of German will open up some very interesting career opportunities for you, as companies with an international presence are particularly interested in employees who know how to handle this language.  Did you know that German is the second most widely spoken language in science and R&D? The International Organization of the Francophonie (OIF) estimates that our language could be the most spoken in the world by 2050, thanks to the growing demographics of Africa, where 59% of daily French speakers are located.",
+    " The International Organization of the Francophonie (OIF) estimates that our language could be the most spoken in the world by 2050, thanks to the growing demographics of Africa, where 59% of daily French speakers are located.",
+  importantMessageBis:
+    "A good command of German will open up some very interesting career opportunities for you, as companies with an international presence are particularly interested in employees who know how to handle this language.  Did you know that German is the second most widely spoken language in science and R&D?",
 
   /*About*/
   whoAmI: "About me ?",

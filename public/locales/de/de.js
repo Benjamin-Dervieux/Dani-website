@@ -24,8 +24,9 @@ export default {
   welcomeMessage: "Business Französisch und Business Deutsch online-Unterricht",
   danielleProfession: "Danielle Desteucq-Roettger zertifizierter Lehrer.",
   importantMessage:
-    "Wenn Sie die deutsche Sprache beherrschen, eröffnen sich Ihnen sehr interessante berufliche Möglichkeiten, denn international tätige Unternehmen sind besonders an Mitarbeitern interessiert, die mit dieser Sprache umgehen können.  Wussten Sie übrigens, dass Deutsch die zweithäufigste Sprache in den Bereichen Wissenschaft, Forschung und Entwicklung ist? Die Internationale Organisation der Frankophonie (OIF) schätzt, dass unsere Sprache bis zum Jahr 2050 die meistgesprochene Sprache der Welt sein könnte, dank der wachsenden Demografie wo 59 % der täglichen Französischsprecher leben.",
-
+    " Die Internationale Organisation der Frankophonie (OIF) schätzt, dass unsere Sprache bis zum Jahr 2050 die meistgesprochene Sprache der Welt sein könnte, dank der wachsenden Demografie wo 59 % der täglichen Französischsprecher leben.",
+  importantMessageBis:
+    "Wenn Sie die deutsche Sprache beherrschen, eröffnen sich Ihnen sehr interessante berufliche Möglichkeiten, denn international tätige Unternehmen sind besonders an Mitarbeitern interessiert, die mit dieser Sprache umgehen können.  Wussten Sie übrigens, dass Deutsch die zweithäufigste Sprache in den Bereichen Wissenschaft, Forschung und Entwicklung ist?",
   /*About*/
   whoAmI: "Über mich",
   whoAmIP:
