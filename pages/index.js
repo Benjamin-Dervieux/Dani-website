@@ -23,13 +23,13 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 ">
           <div className=" lg:w-[500px] rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
             <p className=" p-4 lg:text-[1.2rem] text-justify text-white">
               {t.importantMessage}
             </p>
           </div>
-          <div className=" lg:w-[500px] rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+          <div className=" lg:w-[500px] lg:mt-44 rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
             <p className=" p-4 lg:text-[1.2rem] text-justify text-white">
               {t.importantMessageBis}
             </p>

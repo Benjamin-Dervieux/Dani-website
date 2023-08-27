@@ -23,7 +23,7 @@ export default {
   welcomeMessage: "Cours de français et d’allemand des affaires en ligne",
   danielleProfession: "Danielle Desteucq-Roettger Professeur certifié",
   importantMessage:
-    " L’Organisation internationale de la francophonie (OIF) estime que notre langue pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
+    " L’Organisation internationale de la francophonie (OIF) estime que la langue française pourrait être la plus parlée dans le monde d’ici 2050, grâce à la démographie croissante de l’Afrique, où se trouvent 59 % des locuteurs quotidiens du français.",
   importantMessageBis:
     "La maîtrise de l’allemand mettra à votre portée de très intéressantes opportunités professionnelles car les entreprises ayant une présence internationale sont particulièrement intéressées par des collaborateurs sachant manier cette langue. Saviez-vous d’ailleurs que l’allemand était la deuxième langue la plus présente dans le domaine des sciences et de la recherche et du développement ?",
 
