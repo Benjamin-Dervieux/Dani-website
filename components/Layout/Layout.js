@@ -12,7 +12,7 @@ const Layout = ({ children, pageTitle }) => {
         <title>{pageTitle}</title>
       </Head>
       <Header />
-      {children}
+      <div className="content">{children}</div>
       <Footer />
     </div>
   );

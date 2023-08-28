@@ -13,8 +13,8 @@ export default function Home() {
 
   return (
     <Layout pageTitle="Home page">
-      <div className="flex flex-col justify-around items-center h-[685px] md:h-[815px] lg:h-[815px] bg-fixed bg-start bg-cover bg-no-repeat custom-img-home">
-        <div className="mt-32 lg:mt- p-5 text-center text-white">
+      <div className="flex flex-col justify-around items-center h-full lg:h-[815px] lg:mt-10 bg-fixed bg-cover bg-no-repeat custom-img-home">
+        <div className="mt-32 p-5 text-center text-white">
           <h1 className="text-[1.9rem] lg:text-[2.5em] text-center italic tracking-wide">
             {t.welcomeMessage}
           </h1>
@@ -23,20 +23,20 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex space-x-8 ">
-          <div className=" lg:w-[500px] rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+        <div className="flex flex-col space-y-8 lg:flex-row lg:space-x-8">
+          <div className=" lg:w-[500px] lg:h-[200px] rounded-lg shadow-[rgba(0,_0,_0,_0.90)_0px_3px_8px]">
             <p className=" p-4 lg:text-[1.2rem] text-justify text-white">
               {t.importantMessage}
             </p>
           </div>
-          <div className=" lg:w-[500px] lg:mt-44 rounded-lg shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+          <div className=" lg:w-[500px] rounded-lg shadow-[rgba(0,_0,_0,_0.90)_0px_3px_8px]">
             <p className=" p-4 lg:text-[1.2rem] text-justify text-white">
               {t.importantMessageBis}
             </p>
           </div>
         </div>
 
-        <div className="mt-7 lg:mt-[80px] ">
+        <div className="mt-7 mb-8 lg:mt-[80px] lg:mb-40">
           <Button />
         </div>
       </div>
