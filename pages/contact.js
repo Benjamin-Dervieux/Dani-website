@@ -6,6 +6,7 @@ import { FaXingSquare } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import React, { useState } from "react";
 
 import en from "../public/locales/en/en";
 import fr from "../public/locales/fr/fr";
@@ -15,6 +16,39 @@ const Contact = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "en" ? en : locale === "de" ? de : fr;
+
+  const [formStatus, setFormStatus] = useState(null);
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    const emailData = {
+      to: "contact@danielle-roettger.fr",
+      subject: formData.get("subject"),
+      text: formData.get("message"),
+    };
+
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(emailData),
+      });
+
+      if (response.ok) {
+        setFormStatus("success");
+        e.target.reset();
+      } else {
+        setFormStatus("error");
+      }
+    } catch (error) {
+      console.error("An error occurred:", error);
+      setFormStatus("error");
+    }
+  };
 
   return (
     <Layout pageTitle="Contact">
@@ -40,6 +74,7 @@ const Contact = () => {
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
             type="text"
             name="lastname"
+            id="lastname"
             required
           />
           <label
@@ -52,6 +87,7 @@ const Contact = () => {
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
             type="text"
             name="firstname"
+            id="firstname"
             required
           />
           <label
@@ -64,6 +100,8 @@ const Contact = () => {
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
             type="text"
             name="email"
+            id="email"
+            autoComplete="your-email"
             required
           />
           <label
@@ -76,6 +114,7 @@ const Contact = () => {
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
             type="number"
             name="telephone"
+            id="telephone"
             required
           />
           <label
@@ -88,6 +127,7 @@ const Contact = () => {
             className="w-[355px] lg:w-[600px] h-8 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
             type="text"
             name="subject"
+            id="subject"
             required
           />
           <label
@@ -99,6 +139,7 @@ const Contact = () => {
           <textarea
             className="w-[355px] lg:w-[600px] h-36 ml-4 lg:ml-32 border-2 rounded-md bg-slate-100 "
             name="message"
+            id="message"
             required
           ></textarea>
 
@@ -110,6 +151,17 @@ const Contact = () => {
               {t.send}
             </button>
           </div>
+          {formStatus === "success" && (
+            <p className="text-green-600 mt-4 text-center">
+              Message sent successfully!
+            </p>
+          )}
+
+          {formStatus === "error" && (
+            <p className="text-red-600 mt-4 text-center">
+              An error occurred. Please try again later.
+            </p>
+          )}
         </form>
 
         <div>
