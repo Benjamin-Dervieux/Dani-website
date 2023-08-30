@@ -1,4 +1,4 @@
-import base from "../../utils/server";
+import base from "../../server/server.js";
 
 const handler = base().post(async (req, res) => {
   const { to, subject, text } = req.body;
