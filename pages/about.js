@@ -75,7 +75,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="mt-8 flex flex-col items-center">
+      <div className="flex flex-col items-center">
         <div className="mt-16">
           <h2 className="text-[1.7em] lg:text-[2em] italic tracking-wide">
             {t.course}
@@ -86,7 +86,7 @@ export default function About() {
       <div className="mt-3 flex flex-col items-center">
         <Gi3DStairs size={35} />
         <div className=" mt-3 w-80 lg:w-[800px] text-justify p-4 tracking-wider">
-          <ul className="h-72 flex flex-col justify-between items-center">
+          <ul className="flex flex-col justify-between items-center">
             <li className="experienceLi">{t.exp1}</li>
             <li className="experienceLi">{t.exp2}</li>
             <li className="experienceLi">{t.exp3}</li>
